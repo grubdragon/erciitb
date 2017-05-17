@@ -2,24 +2,168 @@
 
   
     {
-      "title"			: "MathJax Example",
-      "link"			: "https://grubdragon.github.io/erciitb/blog/mathjax-example/",
-      "excerpt"		: "MathJax is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics  ... , and the other for inline mathematics  ... ."
+      "title"			: "Improving ADCs by intentionally adding noise",
+      "link"			: "http://localhost:4000/blog/informative/improving-adcs-with-noise/",
+      "excerpt"		: "How noise addition helps in increasing accuracy of Analog to Digital conversion"
     }
   
 
   
     ,{
-      "title"			: "Hello World",
-      "link"			: "https://grubdragon.github.io/erciitb/blog/hello-world/",
-      "excerpt"		: "You’ll find this post in your _posts directory - edit this post and re-build (or run with the -w switch) to see your changes!To add new posts, simply add a file in the _posts directory that follows the convention: YYYY-MM-DD-name-of-post.ext."
+      "title"			: "Get Electrified 2",
+      "link"			: "http://localhost:4000/blog/projects/get-electrified-2/",
+      "excerpt"		: "How we designed and made xylobands and audio amplifiers!"
+    }
+  
+
+  
+    ,{
+      "title"			: "The Tech Behind Games",
+      "link"			: "http://localhost:4000/blog/informative/the-tech-behind-games/",
+      "excerpt"		: "How today’s mobile games use the various sensors to provide the ultimate gaming experience!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Functioning of L293D motor driver",
+      "link"			: "http://localhost:4000/blog/tutorials/l293d/",
+      "excerpt"		: "How to implement H-bridge for motor control"
+    }
+  
+
+  
+    ,{
+      "title"			: "Making a Sound Meter in Python",
+      "link"			: "http://localhost:4000/blog/tutorials/sound-meter/",
+      "excerpt"		: "A basic usage of audio handling libraries for creating a fun sound-meter!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Sudoku Solver",
+      "link"			: "http://localhost:4000/blog/projects/sudoku-solver/",
+      "excerpt"		: "OpenCV project for reading and solving Sudokus"
+    }
+  
+
+  
+    ,{
+      "title"			: "Switched Mode Power Supply Technology",
+      "link"			: "http://localhost:4000/blog/projects/smps/",
+      "excerpt"		: "Learn about the technology present in chargers!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Pulse Detection Circuit",
+      "link"			: "http://localhost:4000/blog/projects/pulse-detection-circuit/",
+      "excerpt"		: "A simple and interesting application of Analog Electronics for Pulse Detection"
+    }
+  
+
+  
+    ,{
+      "title"			: "Using Eagle to design PCBs",
+      "link"			: "http://localhost:4000/blog/tutorials/using-eagle-to-design-pcbs/",
+      "excerpt"		: "Summary of the PCB design bootcamp taken by Ajinkya Gorad"
+    }
+  
+
+  
+    ,{
+      "title"			: "Path Finder Bot",
+      "link"			: "http://localhost:4000/blog/projects/path-finder-bot/",
+      "excerpt"		: "A bot which finds its way on its own"
+    }
+  
+
+  
+    ,{
+      "title"			: "Fundamentals of a SLAM Algorithm",
+      "link"			: "http://localhost:4000/blog/informative/fundamentals-of-a-slam-algorithm/",
+      "excerpt"		: "Discuss the basic concepts behind all SLAM Algorithms."
+    }
+  
+
+  
+    ,{
+      "title"			: "Deep Learning Based Image Classification",
+      "link"			: "http://localhost:4000/blog/informative/deep-learning-based-image-classification/",
+      "excerpt"		: "How deep neural networks can be taught to classify images using deep learning"
+    }
+  
+
+  
+    ,{
+      "title"			: "The Making of Burglar Alarm",
+      "link"			: "http://localhost:4000/blog/projects/burglar-alarm/",
+      "excerpt"		: "Discussing the concepts behind this elementary circuit and then moving on to build it."
+    }
+  
+
+  
+    ,{
+      "title"			: "Game Of Pong",
+      "link"			: "http://localhost:4000/blog/projects/game-of-pong/",
+      "excerpt"		: "Making the classic ‘Pong’ Game using concept of Shift Registers"
+    }
+  
+
+  
+    ,{
+      "title"			: "Working of a Digital Light Processing Projector",
+      "link"			: "http://localhost:4000/blog/informative/working-of-a-dlp-projector/",
+      "excerpt"		: "Describing the internals and working mechanism, as found in the How Things Work session"
+    }
+  
+
+  
+    ,{
+      "title"			: "Getting Started with Beaglebone Black",
+      "link"			: "http://localhost:4000/blog/tutorials/getting-started-with-beaglebone-black/",
+      "excerpt"		: "Simple tutorial on using the BBB."
+    }
+  
+
+  
+    ,{
+      "title"			: "Meanshift Algorithm for Image Processing",
+      "link"			: "http://localhost:4000/blog/informative/meanshift-algorithm-for-image-processing/",
+      "excerpt"		: "A very basic, yet essential, algorithm for removing noise and forming Clusters in an image."
+    }
+  
+
+  
+    ,{
+      "title"			: "Glimpse Of The Naive Bayes' Classifier",
+      "link"			: "http://localhost:4000/blog/informative/glimpse-of-the-naive-bayes-classifier/",
+      "excerpt"		: "A simple machine learning algorithm explained"
+    }
+  
+
+  
+    ,{
+      "title"			: "Remote Controlling a bot with Android",
+      "link"			: "http://localhost:4000/blog/projects/remote-controlling-a-bot-with-android/",
+      "excerpt"		: "How we implemented an Android+AVR based remote control for bots participating in XLR8 competition."
+    }
+  
+
+  
+    ,{
+      "title"			: "Using OpenCV on Raspberry-Pi",
+      "link"			: "http://localhost:4000/blog/tutorials/using-opencv-on-raspberry-pi/",
+      "excerpt"		: "Getting OpenCV installed and running on Rpi, with necessary scripts and files"
     }
   
 
   
     ,{
       "title"			: "Override Author Byline Test Post",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/author-override/",
+      "link"			: "http://localhost:4000/articles/author-override/",
       "excerpt"		: "An article to test overriding the default site author."
     }
   
@@ -27,7 +171,7 @@
   
     ,{
       "title"			: "Syntax Highlighting Post",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/code-highlighting-post/",
+      "link"			: "http://localhost:4000/articles/code-highlighting-post/",
       "excerpt"		: "Demo post displaying the various ways of highlighting code in Markdown."
     }
   
@@ -35,7 +179,7 @@
   
     ,{
       "title"			: "Sample Link Post",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/sample-link-post/",
+      "link"			: "http://localhost:4000/articles/sample-link-post/",
       "excerpt"		: "Example and code for using link posts."
     }
   
@@ -43,7 +187,7 @@
   
     ,{
       "title"			: "A Post with a Video",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/video-post/",
+      "link"			: "http://localhost:4000/articles/video-post/",
       "excerpt"		: "Custom written post descriptions are the way to go… if you’re not lazy."
     }
   
@@ -51,7 +195,7 @@
   
     ,{
       "title"			: "Post with Large Feature Image and Text",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/readability-feature-post/",
+      "link"			: "http://localhost:4000/articles/readability-feature-post/",
       "excerpt"		: "Custom written post descriptions are the way to go… if you’re not lazy."
     }
   
@@ -59,7 +203,7 @@
   
     ,{
       "title"			: "A Post with Images",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/sample-post-images/",
+      "link"			: "http://localhost:4000/articles/sample-post-images/",
       "excerpt"		: "Examples and code for displaying images in posts."
     }
   
@@ -67,7 +211,7 @@
   
     ,{
       "title"			: "Testing Readability with a Bunch of Text",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/readability-post/",
+      "link"			: "http://localhost:4000/articles/readability-post/",
       "excerpt"		: "A ton of text to test readability."
     }
   
@@ -75,7 +219,7 @@
   
     ,{
       "title"			: "Sample Post",
-      "link"			: "https://grubdragon.github.io/erciitb/articles/sample-post/",
+      "link"			: "http://localhost:4000/articles/sample-post/",
       "excerpt"		: "Just about everything you’ll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
     }
   
@@ -89,7 +233,7 @@
   
     ,{
       "title"			: "About the Jekyll Theme",
-      "link"			: "https://grubdragon.github.io/erciitb/about/",
+      "link"			: "http://localhost:4000/about/",
       "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
     }
   
@@ -97,7 +241,7 @@
   
     ,{
       "title"			: "Theme Setup",
-      "link"			: "https://grubdragon.github.io/erciitb/theme-setup/",
+      "link"			: "http://localhost:4000/theme-setup/",
       "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
     }
   
