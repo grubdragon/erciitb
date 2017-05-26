@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://grubdragon.github.io/erciitb/feed.xml" rel="self" type="application/atom+xml" /><link href="http://grubdragon.github.io/erciitb/" rel="alternate" type="text/html" /><updated>2017-05-26T22:25:04+05:30</updated><id>http://grubdragon.github.io/erciitb/</id><title type="html">Electronics and Robotics Club, IIT Bombay</title><subtitle>A place for tinkerers and the sort!</subtitle><entry><title type="html">Get Electrified 3</title><link href="http://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/" rel="alternate" type="text/html" title="Get Electrified 3" /><published>2017-04-24T00:00:00+05:30</published><updated>2017-04-24T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/informative/get-electrified-3</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/">&lt;p&gt;Electronics club conducted its last electrified session on 18th March, 2017. It was totally awesome as we got an opportunity to make a half adder, full adder, subtractor and priority encoder. Along with that we also learnt some cool stuff about digital circuits.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://grubdragon.github.io/erciitb/feed.xml" rel="self" type="application/atom+xml" /><link href="https://grubdragon.github.io/erciitb/" rel="alternate" type="text/html" /><updated>2017-05-26T22:45:33+05:30</updated><id>https://grubdragon.github.io/erciitb/</id><title type="html">Electronics and Robotics Club, IIT Bombay</title><subtitle>A place for tinkerers and the sort!</subtitle><entry><title type="html">Get Electrified 3</title><link href="https://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/" rel="alternate" type="text/html" title="Get Electrified 3" /><published>2017-04-24T00:00:00+05:30</published><updated>2017-04-24T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/informative/get-electrified-3</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/">&lt;p&gt;Electronics club conducted its last electrified session on 18th March, 2017. It was totally awesome as we got an opportunity to make a half adder, full adder, subtractor and priority encoder. Along with that we also learnt some cool stuff about digital circuits.&lt;/p&gt;
 
 &lt;p&gt;##Where do we begin from to make anything as simple as an adder?&lt;/p&gt;
 
@@ -6,7 +6,7 @@
 
 &lt;p&gt;Combinational circuit is basically used for making those circuits which depends on the current state.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_0.png&quot; alt=&quot;Combinational Logic Circuits&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_0.png&quot; alt=&quot;Combinational Logic Circuits&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;##So, let us now begin with how exactly do these combinational circuits function:&lt;/p&gt;
 
@@ -24,9 +24,9 @@
 
 &lt;p&gt;The circuit diagram and truth table of a half adder and full adder is shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_1.png&quot; alt=&quot;Half Adder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_1.png&quot; alt=&quot;Half Adder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_2.png&quot; alt=&quot;Full Adder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_2.png&quot; alt=&quot;Full Adder&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;subtractor&quot;&gt;Subtractor:&lt;/h2&gt;
 
@@ -40,9 +40,9 @@
 
 &lt;p&gt;The circuit diagram and truth table of a half subtractor and full subtractor is shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_3.png&quot; alt=&quot;Half Subtractor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_3.png&quot; alt=&quot;Half Subtractor&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_4.png&quot; alt=&quot;Full Subtractor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_4.png&quot; alt=&quot;Full Subtractor&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;priority-encoder&quot;&gt;Priority Encoder:&lt;/h2&gt;
 
@@ -50,7 +50,7 @@
 
 &lt;h2 id=&quot;to-3-bit-priority-encoder&quot;&gt;8-to-3 Bit Priority Encoder:&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_5.png&quot; alt=&quot;8 to 3 bit Priority Encoder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_5.png&quot; alt=&quot;8 to 3 bit Priority Encoder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Where X equals “don’t care”, that is it can be either logic “0” or logic “1”.&lt;/p&gt;
 
@@ -64,11 +64,11 @@
 
 &lt;p&gt;Circuit diagram and truth table of a multiplexer is shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_6.png&quot; alt=&quot;4:1 Multiplexer&quot; /&gt;  &lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_7.png&quot; alt=&quot;Truth Table&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_6.png&quot; alt=&quot;4:1 Multiplexer&quot; /&gt;  &lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_7.png&quot; alt=&quot;Truth Table&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Circuit diagram and truth table of a demultiplexer is shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_8.png&quot; alt=&quot;1:4 Demultiplexer&quot; /&gt;  &lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_9.png&quot; alt=&quot;Truth Table&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_8.png&quot; alt=&quot;1:4 Demultiplexer&quot; /&gt;  &lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_9.png&quot; alt=&quot;Truth Table&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;encoders-and-decoders&quot;&gt;Encoders and Decoders:&lt;/h2&gt;
 
@@ -80,9 +80,9 @@
 
 &lt;p&gt;Similarly, you can guess the functioning of a decoder. For each input combination, only one output line is active (which means 0 or 1, depending on whether the outputs are active low or active high). Since there are 2N input combinations, there could be 2N output lines, i.e., M = 2N. However, there are decoders with M &amp;lt; 2 N as well.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_10.png&quot; alt=&quot;Encoder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_10.png&quot; alt=&quot;Encoder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_11.png&quot; alt=&quot;Decoder&quot; /&gt;&lt;/p&gt;</content><author><name>Mayanka Medhe</name></author><category term="[&quot;Informative&quot;]" /><category term="Digital Electronics" /><category term="Adder" /><category term="MUX" /><summary type="html">Tinkering with Digital Electronics!</summary></entry><entry><title type="html">Experiences with Robotic Arm</title><link href="http://grubdragon.github.io/erciitb/blog/robotic_arm/" rel="alternate" type="text/html" title="Experiences with Robotic Arm" /><published>2016-12-20T00:00:00+05:30</published><updated>2016-12-20T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/robotic_arm</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/robotic_arm/">&lt;p&gt;We organised a session on Grippers where enthusiastic freshers participated in an overnight hackathon which was preceded by Tutorial for the same in Tinkerers Laboratory,IIT Bombay.  
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_11.png&quot; alt=&quot;Decoder&quot; /&gt;&lt;/p&gt;</content><author><name>Mayanka Medhe</name></author><category term="[&quot;Informative&quot;]" /><category term="Digital Electronics" /><category term="Adder" /><category term="MUX" /><summary type="html">Tinkering with Digital Electronics!</summary></entry><entry><title type="html">Experiences with Robotic Arm</title><link href="https://grubdragon.github.io/erciitb/blog/robotic_arm/" rel="alternate" type="text/html" title="Experiences with Robotic Arm" /><published>2016-12-20T00:00:00+05:30</published><updated>2016-12-20T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/robotic_arm</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/robotic_arm/">&lt;p&gt;We organised a session on Grippers where enthusiastic freshers participated in an overnight hackathon which was preceded by Tutorial for the same in Tinkerers Laboratory,IIT Bombay.  
 Here is a blog post by one such team which participated in the event and successfully completed the Gripper.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -90,7 +90,7 @@ Here is a blog post by one such team which participated in the event and success
 &lt;h1 id=&quot;center-team-hifi&quot;&gt;&lt;center&gt; Team HIFI&lt;/center&gt;&lt;/h1&gt;
 &lt;center&gt; - Maitrey Gramopadhye, Swadha Sanghvi, Bhuyashi Deka, Vikrant Nagpure
 
-&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/Gripper/roboarm.jpg&quot; alt=&quot;team&quot; /&gt;
+&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/Gripper/roboarm.jpg&quot; alt=&quot;team&quot; /&gt;
 
 &lt;p&gt;
 All at least once we've tried opening up clocks in our house or the batteries of our mobile. Well, to satisfy this techie spirit a gripper bot session was held on 23 November. we had been waiting to get our Xlr8 bots out of our cupboards and and do more with them as our mentors had promised we would. The tech nightout held in tinker's lab started at 9 pm. Mentors were very enthusiastic about explaining the concept of grippers and having attended the get mechanised and get electrified session it wasn't hard to get started.
@@ -127,7 +127,7 @@ We would like to thank our mentors and technicians of TL for helping us through 
 &lt;/p&gt;
 Cheers!
 &lt;/center&gt;</content><author><name>Maitrey Gramopadhye, Swadha Sanghvi, Bhuyashi Deka, Vikrant Nagpure</name></author><category term="blog" /><category term="Gripper" /><category term="Automation" /><category term="Arduino" /><summary type="html">We organised a session on Grippers where enthusiastic freshers participated in an overnight hackathon which was preceded by Tutorial for the same in Tinkerers Laboratory,IIT Bombay.  
-Here is a blog post by one such team which participated in the event and successfully completed the Gripper.</summary></entry><entry><title type="html">Improving ADCs by intentionally adding noise</title><link href="http://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/" rel="alternate" type="text/html" title="Improving ADCs by intentionally adding noise" /><published>2016-10-29T00:00:00+05:30</published><updated>2016-10-29T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/">&lt;p&gt;Everybody has this presumed notion that noise in an electronic system is bad.
+Here is a blog post by one such team which participated in the event and successfully completed the Gripper.</summary></entry><entry><title type="html">Improving ADCs by intentionally adding noise</title><link href="https://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/" rel="alternate" type="text/html" title="Improving ADCs by intentionally adding noise" /><published>2016-10-29T00:00:00+05:30</published><updated>2016-10-29T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/">&lt;p&gt;Everybody has this presumed notion that noise in an electronic system is bad.
 We all learn about ways to reduce noise in the circuits we implement to get
 better results. In this post we will see a case where intentionally &lt;em&gt;adding&lt;/em&gt;
 noise to a system will give better results.&lt;/p&gt;
@@ -218,7 +218,7 @@ to the expected value &lt;script type=&quot;math/tex&quot;&gt;c + \frac{1}{2}&lt
 
 &lt;h2 id=&quot;block-diagram-for-adding-dither&quot;&gt;Block diagram for adding dither&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/improving-adcs-with-noise/block_diag.png&quot; alt=&quot;block diagram&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/improving-adcs-with-noise/block_diag.png&quot; alt=&quot;block diagram&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Sampler just reads the value of its input at &lt;script type=&quot;math/tex&quot;&gt;t = nT&lt;/script&gt;, hence it gives
 a sample at every &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; seconds. From our previous derivation we can say that&lt;/p&gt;
@@ -264,7 +264,7 @@ Hence we can see that dither gives us a better approximation after quantization.
 &lt;p&gt;&lt;em&gt;Note: The leaf image is using a slightly better algorithm than just adding dither
 and converting to binary (Random dithering). Such an image would look much worse, so for representative
 purposes I have used this image. You can read more about better algorithms on the
-wikipedia page of Dither&lt;/em&gt;&lt;/p&gt;</content><author><name>Meet Udeshi</name></author><category term="[&quot;Informative&quot;]" /><category term="ADC" /><category term="Dither" /><summary type="html">How noise addition helps in increasing accuracy of Analog to Digital conversion</summary></entry><entry><title type="html">Get Electrified 2</title><link href="http://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/" rel="alternate" type="text/html" title="Get Electrified 2" /><published>2016-09-29T00:00:00+05:30</published><updated>2016-09-29T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/projects/get-electrified-2</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/">&lt;p&gt;Greetings from Electronics Club IIT Bombay&lt;/p&gt;
+wikipedia page of Dither&lt;/em&gt;&lt;/p&gt;</content><author><name>Meet Udeshi</name></author><category term="[&quot;Informative&quot;]" /><category term="ADC" /><category term="Dither" /><summary type="html">How noise addition helps in increasing accuracy of Analog to Digital conversion</summary></entry><entry><title type="html">Get Electrified 2</title><link href="https://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/" rel="alternate" type="text/html" title="Get Electrified 2" /><published>2016-09-29T00:00:00+05:30</published><updated>2016-09-29T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/projects/get-electrified-2</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/">&lt;p&gt;Greetings from Electronics Club IIT Bombay&lt;/p&gt;
 
 &lt;p&gt;We conduct Electrified sessions regularly wherein some basic electronics
 concepts are discussed and some cool DIY projects based on the concepts
@@ -285,7 +285,7 @@ mathematical operations such as addition, subtraction , integration and
 differentiation etc.&lt;/p&gt;
 
 &lt;p&gt;For more details of Opamps you can refer our
-&lt;a href=&quot;http://grubdragon.github.io/erciitb/tutorials/basic_electronics/&quot;&gt;&lt;em&gt;tutorial&lt;/em&gt;&lt;/a&gt;
+&lt;a href=&quot;https://grubdragon.github.io/erciitb/tutorials/basic_electronics/&quot;&gt;&lt;em&gt;tutorial&lt;/em&gt;&lt;/a&gt;
 on basic electronics.&lt;/p&gt;
 
 &lt;h3 id=&quot;bipolar-junction-transistors&quot;&gt;Bipolar Junction Transistors&lt;/h3&gt;
@@ -317,7 +317,7 @@ frequency.&lt;/p&gt;
 
 &lt;p&gt;Here is the circuit of xyloband:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-2/xylo_band_circuit.jpg&quot; alt=&quot;xyloband_circuit&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-2/xylo_band_circuit.jpg&quot; alt=&quot;xyloband_circuit&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We start by taking the input of music via a microphone. We can model the
 microphone as unipolar resistor. Therefore we have made a voltage
@@ -371,7 +371,7 @@ speaker.&lt;/p&gt;
 
 &lt;p&gt;Here is the circuit diagram of the Audio Amplifier:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-2/audio_amplifier_circuit.jpg&quot; alt=&quot;audio_amplifier_circuit&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/get-electrified-2/audio_amplifier_circuit.jpg&quot; alt=&quot;audio_amplifier_circuit&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Can you see an AC source in the left part of circuit ? That’s where we
 connect the audio jack output from our cell phones.&lt;/p&gt;
@@ -389,7 +389,7 @@ playing the music.&lt;/p&gt;
 
 &lt;p&gt;Let’s have a look at how the things turned out to be :)&lt;/p&gt;
 
-&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/So6K92vzHUw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Pranav Sankhe</name></author><category term="[&quot;Projects&quot;]" /><category term="Analog Electronics" /><category term="Xyloband" /><category term="Audio Amplifier" /><summary type="html">How we designed and made xylobands and audio amplifiers!</summary></entry><entry><title type="html">The Tech Behind Games</title><link href="http://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/" rel="alternate" type="text/html" title="The Tech Behind Games" /><published>2016-08-31T00:00:00+05:30</published><updated>2016-08-31T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/">&lt;p&gt;Gaming is one of the most popular form of entertainment (and probably will hold this position forever).
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/So6K92vzHUw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Pranav Sankhe</name></author><category term="[&quot;Projects&quot;]" /><category term="Analog Electronics" /><category term="Xyloband" /><category term="Audio Amplifier" /><summary type="html">How we designed and made xylobands and audio amplifiers!</summary></entry><entry><title type="html">The Tech Behind Games</title><link href="https://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/" rel="alternate" type="text/html" title="The Tech Behind Games" /><published>2016-08-31T00:00:00+05:30</published><updated>2016-08-31T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/">&lt;p&gt;Gaming is one of the most popular form of entertainment (and probably will hold this position forever).
 Also, mobile gaming is on a boom now a days. Almost every good game needs its controls to be intuitive and flexible. 
 There has been a lot of research and upgradations in the field of motion sensing.
 Some of the major breakthroughs are Gyroscope, Accelerometer, Magnetometer, etc. Let’s know about these in detail.&lt;/p&gt;
@@ -398,7 +398,7 @@ Some of the major breakthroughs are Gyroscope, Accelerometer, Magnetometer, etc.
 
 &lt;p&gt;One key element of interaction is local motion of the phone, such as linear acceleration, rotational velocity, etc.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/accel_gyro.jpg&quot; alt=&quot;accel_gyro&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/accel_gyro.jpg&quot; alt=&quot;accel_gyro&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -417,7 +417,7 @@ vector in 3D.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/capacitor_diagram.jpg&quot; alt=&quot;capacitor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/capacitor_diagram.jpg&quot; alt=&quot;capacitor&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -476,7 +476,7 @@ distance between us and the satellite as we also know the time we received the w
 and hence time it took to travel the distance. The speed of the wave is equal
 to the speed of light because it is an electromagnetic wave.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/gps.jpg&quot; alt=&quot;gps&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/gps.jpg&quot; alt=&quot;gps&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Using this distance measurement from 3 different satellites and their orbital position
 we get three spheres as loci of our position. The earth is the fourth sphere. Using coordinate geometry
@@ -491,7 +491,7 @@ which will be our location.&lt;/p&gt;
 graphics to real world. This is done by displaying the real world and additional
 “augmented” data together on one screen.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/ar.jpg&quot; alt=&quot;AR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/ar.jpg&quot; alt=&quot;AR&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This has varied applications like visual art, greeting cards, video games
 (any fans of Pokemon Go or Ingress here!)&lt;/p&gt;
@@ -506,7 +506,7 @@ There other components like angle, height, width, etc. are also considered to gi
 &lt;p&gt;Any game like Pokemon Go or Ingress will interface these sensors and use this
 data to enhance your experience of interactivity with the game. They use AR
 to give an immersive feel to the game, much like you are in the game’s world
-and playing it in real life!&lt;/p&gt;</content><author><name>Shrvan Amlekar</name></author><category term="[&quot;Informative&quot;]" /><category term="Sensors" /><category term="Augmented Reality" /><summary type="html">How today's mobile games use the various sensors to provide the ultimate gaming experience!</summary></entry><entry><title type="html">Functioning of L293D motor driver</title><link href="http://grubdragon.github.io/erciitb/blog/tutorials/l293d/" rel="alternate" type="text/html" title="Functioning of L293D motor driver" /><published>2016-08-14T00:00:00+05:30</published><updated>2016-08-14T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/tutorials/l293d</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/tutorials/l293d/">&lt;p&gt;Last year I entered IIT Bombay and had my first face off with the modern
+and playing it in real life!&lt;/p&gt;</content><author><name>Shrvan Amlekar</name></author><category term="[&quot;Informative&quot;]" /><category term="Sensors" /><category term="Augmented Reality" /><summary type="html">How today's mobile games use the various sensors to provide the ultimate gaming experience!</summary></entry><entry><title type="html">Functioning of L293D motor driver</title><link href="https://grubdragon.github.io/erciitb/blog/tutorials/l293d/" rel="alternate" type="text/html" title="Functioning of L293D motor driver" /><published>2016-08-14T00:00:00+05:30</published><updated>2016-08-14T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/tutorials/l293d</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/tutorials/l293d/">&lt;p&gt;Last year I entered IIT Bombay and had my first face off with the modern
 tech then. We had a bot racing competition called XLR8 in which we have
 to prepare a bot on our own and race it with others so as to win. Seems
 easy? Not as much as it seems to be .&lt;/p&gt;
@@ -529,11 +529,11 @@ in a simple way.&lt;/p&gt;
 
 &lt;p&gt;Presuming we have this driver , its datasheet and zeal to learn.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image00.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/l293d/image00.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It looks like this from outside and the connections inside are :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image01.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/l293d/image01.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Working Of L293D&lt;/strong&gt;&lt;/p&gt;
 
@@ -547,7 +547,7 @@ component called H-Bridge&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;H-Bridge&lt;/strong&gt;&lt;br /&gt;
 A H-bridge looks like following :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image02.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/l293d/image02.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It is used to apply voltage across a load( here, a motor ) in both the
 directions. So we can easily infer from this if the voltage across the
@@ -626,7 +626,7 @@ set too low!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;LOGIC TABLE FOR L293D&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/l293d/image03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Similarly for PIN 9 ( ~PIN 1 ) , PIN 10( ~PIN2 ) and PIN 15 ( ~PIN7 ).&lt;/p&gt;
 
@@ -667,7 +667,7 @@ heating of IC.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Happy tinkering ! :D&lt;/p&gt;</content><author><name>Sanket Agrawal</name></author><category term="[&quot;Tutorials&quot;]" /><category term="XLR8" /><category term="L293D" /><category term="Motor Driver" /><summary type="html">How to implement H-bridge for motor control</summary></entry><entry><title type="html">Machine Learning</title><link href="http://grubdragon.github.io/erciitb/blog/machinel/" rel="alternate" type="text/html" title="Machine Learning" /><published>2016-08-11T00:00:00+05:30</published><updated>2016-08-11T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/machinel</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/machinel/">&lt;p&gt;Wonder how Facebook identifies you and your friends in photos? Wonder how Gmail automatically detects and filters out spam? Or how Autosuggest in your smartphones works? All these answers lie in Machine Learning! Read ahead to find out! ;)&lt;/p&gt;
+&lt;p&gt;Happy tinkering ! :D&lt;/p&gt;</content><author><name>Sanket Agrawal</name></author><category term="[&quot;Tutorials&quot;]" /><category term="XLR8" /><category term="L293D" /><category term="Motor Driver" /><summary type="html">How to implement H-bridge for motor control</summary></entry><entry><title type="html">Machine Learning</title><link href="https://grubdragon.github.io/erciitb/blog/machinel/" rel="alternate" type="text/html" title="Machine Learning" /><published>2016-08-11T00:00:00+05:30</published><updated>2016-08-11T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/machinel</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/machinel/">&lt;p&gt;Wonder how Facebook identifies you and your friends in photos? Wonder how Gmail automatically detects and filters out spam? Or how Autosuggest in your smartphones works? All these answers lie in Machine Learning! Read ahead to find out! ;)&lt;/p&gt;
 
 &lt;p&gt;Machine Learning is the science of getting computers to act without being explicitly programmed to do so. The machine is able to learn and implement algorithms, and tries to figure out/determine output.&lt;/p&gt;
 
@@ -703,7 +703,7 @@ Initially, weights are all set to one (you face some problems if the weights are
 
 &lt;p&gt;Genetic Algorithms are an application of Neural Networks.&lt;/p&gt;
 
-&lt;p&gt;Courtesy (Speakers in the GD): Siddhant Garg, Karan Chadha, Arka Sadhu&lt;/p&gt;</content><author><name>Shobhna Misra</name></author><category term="blog" /><category term="Machine Learning" /><summary type="html">Wonder how Facebook identifies you and your friends in photos? Wonder how Gmail automatically detects and filters out spam? Or how Autosuggest in your smartphones works? All these answers lie in Machine Learning! Read ahead to find out! ;)</summary></entry><entry><title type="html">Making a Sound Meter in Python</title><link href="http://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/" rel="alternate" type="text/html" title="Making a Sound Meter in Python" /><published>2016-08-04T00:00:00+05:30</published><updated>2016-08-04T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/tutorials/sound-meter</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/">&lt;p&gt;Those who have seen the 3 blocks of audience in PCSA compete during the STAB Orientation for the loudest cheer, know what this Sound Meter is.&lt;/p&gt;
+&lt;p&gt;Courtesy (Speakers in the GD): Siddhant Garg, Karan Chadha, Arka Sadhu&lt;/p&gt;</content><author><name>Shobhna Misra</name></author><category term="blog" /><category term="Machine Learning" /><summary type="html">Wonder how Facebook identifies you and your friends in photos? Wonder how Gmail automatically detects and filters out spam? Or how Autosuggest in your smartphones works? All these answers lie in Machine Learning! Read ahead to find out! ;)</summary></entry><entry><title type="html">Making a Sound Meter in Python</title><link href="https://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/" rel="alternate" type="text/html" title="Making a Sound Meter in Python" /><published>2016-08-04T00:00:00+05:30</published><updated>2016-08-04T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/tutorials/sound-meter</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/">&lt;p&gt;Those who have seen the 3 blocks of audience in PCSA compete during the STAB Orientation for the loudest cheer, know what this Sound Meter is.&lt;/p&gt;
 
 &lt;h2 id=&quot;target&quot;&gt;Target&lt;/h2&gt;
 
@@ -830,7 +830,7 @@ Initially, weights are all set to one (you face some problems if the weights are
 &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;terminate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Have fun!&lt;/p&gt;</content><author><name>Krish Mehta</name></author><category term="[&quot;Tutorials&quot;]" /><category term="python" /><category term="audio" /><summary type="html">A basic usage of audio handling libraries for creating a fun sound-meter!</summary></entry><entry><title type="html">Sudoku Solver</title><link href="http://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/" rel="alternate" type="text/html" title="Sudoku Solver" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/projects/sudoku-solver</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/">&lt;p&gt;&lt;strong&gt;Sudoku Solver&lt;/strong&gt; is the collection of very basic image processing techniques. A very good way to start is the OpenCV library which can be compiled on almost all the platforms. &lt;strong&gt;OpenCV&lt;/strong&gt;(open source computer vision )is a library of programming functions mainly aimed at real time computer vision. Through this project ,my main motivation was to explore what OpenCV offers in a little bit detail . There are already many blogs dealing with how to recognise a whole sudoku puzzle but it  was nevertheless  a pleasant experience doing it on my own and writing this blog ( It is pretty obvious that I too would have been lost without all those online resources , blogs , and documentations.)&lt;/p&gt;
+&lt;p&gt;Have fun!&lt;/p&gt;</content><author><name>Krish Mehta</name></author><category term="[&quot;Tutorials&quot;]" /><category term="python" /><category term="audio" /><summary type="html">A basic usage of audio handling libraries for creating a fun sound-meter!</summary></entry><entry><title type="html">Sudoku Solver</title><link href="https://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/" rel="alternate" type="text/html" title="Sudoku Solver" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/projects/sudoku-solver</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/">&lt;p&gt;&lt;strong&gt;Sudoku Solver&lt;/strong&gt; is the collection of very basic image processing techniques. A very good way to start is the OpenCV library which can be compiled on almost all the platforms. &lt;strong&gt;OpenCV&lt;/strong&gt;(open source computer vision )is a library of programming functions mainly aimed at real time computer vision. Through this project ,my main motivation was to explore what OpenCV offers in a little bit detail . There are already many blogs dealing with how to recognise a whole sudoku puzzle but it  was nevertheless  a pleasant experience doing it on my own and writing this blog ( It is pretty obvious that I too would have been lost without all those online resources , blogs , and documentations.)&lt;/p&gt;
 
 &lt;h3 id=&quot;what-actually-this-project-does&quot;&gt;What actually this project does?&lt;/h3&gt;
 
@@ -865,7 +865,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;p&gt;First of all we need is an input image.  We need to load a sudoku image .&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image1.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image1.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;     &lt;span class=&quot;n&quot;&gt;Mat&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sudoku.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CV_LOAD_IMAGE_UNCHANGED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -886,7 +886,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;p&gt; I  have done just noise removal and adaptive thresholding and  it is working so haven’t done anything extra. Below is the result:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;extracting-the-sudoku-&quot;&gt;Extracting the Sudoku :&lt;/h3&gt;
 
@@ -925,7 +925,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;    &lt;span class=&quot;n&quot;&gt;drawContours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Scalar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now we have found out the boundary of the sudoku and next we need to to do is extract this much part and then work on it.&lt;/p&gt;
 
@@ -990,7 +990,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;h3 id=&quot;the-result-we-get-is&quot;&gt;The result we get is:&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now apply the pre-processing as we did earlier and get the thresholded image and now we need to extract each grids centre the digit and then finally apply OCR.
 So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;450 and therefore our every sub grids will be a matrix of 50&lt;/em&gt;50 so we can extract each grid by extracting the sub grids of 50*50 and store all the images in a vector.&lt;/p&gt;
@@ -1028,9 +1028,9 @@ So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;4
 
 &lt;h3 id=&quot;the-results-is-as-follows&quot;&gt;The results is as follows:&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image5.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image6.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image7.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image5.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image6.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image7.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now we have all the digits centered what we now need to do is apply OCR . There are huge number of techniques for implementing OCR and huge number of pattern recognition algorithm and for my implementation i choose K-Nearest Neighbour algorithm as it is already available in OpenCV library.The algorithm caches all training samples and predicts responses for new sample by analyzing a certain number of the nearest neighbour of the sample using voting and calculated mean. For it you need to create sample data and train those images and recognise digits from previously trained data. I created training samples by collecting images from various sudoku .My training data can be found out on this &lt;a href=&quot;https://drive.google.com/open?id=0ByDK_y_Ss5KbSFJkU19fSG15QXc&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
 
@@ -1101,13 +1101,13 @@ So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;4
 
 &lt;p&gt;Although,I did not get 100% correct results but anyways it was overall a great learning experience.&lt;/p&gt;
 
-&lt;p&gt;The whole source code can be found &lt;a href=&quot;https://drive.google.com/open?id=0ByDK_y_Ss5KbS2xtQ0pEOGxkV1E&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Anant Jain</name></author><category term="[&quot;Projects&quot;]" /><category term="Algorithm" /><category term="OpenCV" /><summary type="html">OpenCV project for reading and solving Sudokus</summary></entry><entry><title type="html">Switched Mode Power Supply Technology</title><link href="http://grubdragon.github.io/erciitb/blog/projects/smps/" rel="alternate" type="text/html" title="Switched Mode Power Supply Technology" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/projects/smps</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/projects/smps/">&lt;p&gt;Switched Mode Power Supply or SMPS is an electronic power supply that incorporates a switching regulator to convert electrical power efficiently. Like other power supplies, an SMPS transfers power from a source, like mains power, to a load, such as a PC, while converting voltage and current characteristics. A typical SMPS is seen down here :&lt;/p&gt;
+&lt;p&gt;The whole source code can be found &lt;a href=&quot;https://drive.google.com/open?id=0ByDK_y_Ss5KbS2xtQ0pEOGxkV1E&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Anant Jain</name></author><category term="[&quot;Projects&quot;]" /><category term="Algorithm" /><category term="OpenCV" /><summary type="html">OpenCV project for reading and solving Sudokus</summary></entry><entry><title type="html">Switched Mode Power Supply Technology</title><link href="https://grubdragon.github.io/erciitb/blog/projects/smps/" rel="alternate" type="text/html" title="Switched Mode Power Supply Technology" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb/blog/projects/smps</id><content type="html" xml:base="https://grubdragon.github.io/erciitb/blog/projects/smps/">&lt;p&gt;Switched Mode Power Supply or SMPS is an electronic power supply that incorporates a switching regulator to convert electrical power efficiently. Like other power supplies, an SMPS transfers power from a source, like mains power, to a load, such as a PC, while converting voltage and current characteristics. A typical SMPS is seen down here :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/smps/image1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/smps/image1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;circuit-diagram&quot;&gt;Circuit Diagram&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/smps/image_2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/smps/image_2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The components F1 and F2 are referred to as Fuse.&lt;/em&gt;&lt;/p&gt;
 
@@ -1131,7 +1131,7 @@ So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;4
 
 &lt;p&gt;When we use an adapter-looking thing to power Arduino, it converts 220V supply to a 12V supply required to power the Arduino. This is achieved by the SMPS present inside the black part of the adapter.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/smps/image_3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://grubdragon.github.io/erciitb/assets/blog/smps/image_3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The black box looking thing attached to a laptop charger is actually an SMPS to convert the input to an output DC Voltage to charge the battery.&lt;/p&gt;
 

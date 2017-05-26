@@ -3,7 +3,7 @@
   
     {
       "title"			: "Get Electrified 3",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/",
       "excerpt"		: "Tinkering with Digital Electronics!"
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Experiences with Robotic Arm",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/robotic_arm/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/robotic_arm/",
       "excerpt"		: "We organised a session on Grippers where enthusiastic freshers participated in an overnight hackathon which was preceded by Tutorial for the same in Tinkerers Laboratory,IIT Bombay.  Here is a blog post by one such team which participated in the event and successfully completed the Gripper."
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "Improving ADCs by intentionally adding noise",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/",
       "excerpt"		: "How noise addition helps in increasing accuracy of Analog to Digital conversion"
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "Get Electrified 2",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/",
       "excerpt"		: "How we designed and made xylobands and audio amplifiers!"
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "The Tech Behind Games",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/",
       "excerpt"		: "How today’s mobile games use the various sensors to provide the ultimate gaming experience!"
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "Functioning of L293D motor driver",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/tutorials/l293d/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/tutorials/l293d/",
       "excerpt"		: "How to implement H-bridge for motor control"
     }
   
@@ -51,7 +51,7 @@
   
     ,{
       "title"			: "Machine Learning",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/machinel/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/machinel/",
       "excerpt"		: "Wonder how Facebook identifies you and your friends in photos? Wonder how Gmail automatically detects and filters out spam? Or how Autosuggest in your smartphones works? All these answers lie in Machine Learning! Read ahead to find out! ;)"
     }
   
@@ -59,7 +59,7 @@
   
     ,{
       "title"			: "Making a Sound Meter in Python",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/",
       "excerpt"		: "A basic usage of audio handling libraries for creating a fun sound-meter!"
     }
   
@@ -67,7 +67,7 @@
   
     ,{
       "title"			: "Sudoku Solver",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/",
       "excerpt"		: "OpenCV project for reading and solving Sudokus"
     }
   
@@ -75,7 +75,7 @@
   
     ,{
       "title"			: "Switched Mode Power Supply Technology",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/smps/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/smps/",
       "excerpt"		: "Learn about the technology present in chargers!"
     }
   
@@ -83,7 +83,7 @@
   
     ,{
       "title"			: "Automated Gripper Bot",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/Automated_gripper_sankhe/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/Automated_gripper_sankhe/",
       "excerpt"		: "In winters of my freshie year I wanted to built a bot which when left into some unknown location can detect the objects around it and grip them one by one. I am going to share my experience as in how I went about making this bot."
     }
   
@@ -91,7 +91,7 @@
   
     ,{
       "title"			: "Pulse Detection Circuit",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/pulse-detection-circuit/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/pulse-detection-circuit/",
       "excerpt"		: "A simple and interesting application of Analog Electronics for Pulse Detection"
     }
   
@@ -99,7 +99,7 @@
   
     ,{
       "title"			: "3D Printers",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/3DPrinting/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/3DPrinting/",
       "excerpt"		: "Before we start, here’s a glimpse of some cool stuff we 3D Printed at Tinkerer’s Lab!"
     }
   
@@ -107,7 +107,7 @@
   
     ,{
       "title"			: "Using Eagle to design PCBs",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/tutorials/using-eagle-to-design-pcbs/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/tutorials/using-eagle-to-design-pcbs/",
       "excerpt"		: "Summary of the PCB design bootcamp taken by Ajinkya Gorad"
     }
   
@@ -115,7 +115,7 @@
   
     ,{
       "title"			: "Motion Processing Unit",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/MPU6050/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/MPU6050/",
       "excerpt"		: "MPU 6050 contains both an accelerometer and a gyroscope in a single chip. We tracked the orientation of the MPU6050 module in real time and displayed it on the computer, in a project which we describe below."
     }
   
@@ -123,7 +123,7 @@
   
     ,{
       "title"			: "Humanoids and Androids",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/Humanoids/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/Humanoids/",
       "excerpt"		: "The fascination of mankind with robots is immense. Ever since the first human-like robot was developed in 1868 , there has been a constant development of humanoids and in the recent past , androids.Humanoids are robots designed to resemble the human body , partly or wholly. They are mainly used as a research tool in various scientific areas and are gaining popularity for providing entertainment. Androids are humanoids built to aesthetically resemble humans."
     }
   
@@ -131,7 +131,7 @@
   
     ,{
       "title"			: "Deep Learning",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/deep-learning/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/deep-learning/",
       "excerpt"		: "What was the one big thing in the last decade?Answer varies from one person to another. Some say that it is Facebook while some others say that it is Google. But there is a peculiar feature every big company in the past decade has been focussing on, which is personalising one’s experience of Internet. A brief example would be a simple Google Search - “restaurants near me”. Google will give results based on your location because Google knows where you are, where you sleep, where you eat and the list continues. (You can check what Google knows about your location here)"
     }
   
@@ -139,7 +139,7 @@
   
     ,{
       "title"			: "Path Finder Bot",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/path-finder-bot/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/path-finder-bot/",
       "excerpt"		: "A bot which finds its way on its own"
     }
   
@@ -147,7 +147,7 @@
   
     ,{
       "title"			: "Fundamentals of a SLAM Algorithm",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/fundamentals-of-a-slam-algorithm/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/fundamentals-of-a-slam-algorithm/",
       "excerpt"		: "Discuss the basic concepts behind all SLAM Algorithms."
     }
   
@@ -155,7 +155,7 @@
   
     ,{
       "title"			: "Deep Learning Based Image Classification",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/deep-learning-based-image-classification/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/deep-learning-based-image-classification/",
       "excerpt"		: "How deep neural networks can be taught to classify images using deep learning"
     }
   
@@ -163,7 +163,7 @@
   
     ,{
       "title"			: "Building a Maze Solving Bot",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/irc/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/irc/",
       "excerpt"		: "I was just into my freshman year, and just as everyone else, robotics felt like the cool thing to do. So I decided to participate in the International Robotics Challenge, a premium inter-college competition, with support from Innovation Cell, IIT-B. Here’s a post that covers the journey. Get yourself some food to hog on, ‘cause this one’s gonna be a long one!"
     }
   
@@ -171,7 +171,7 @@
   
     ,{
       "title"			: "The Making of Burglar Alarm",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/burglar-alarm/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/burglar-alarm/",
       "excerpt"		: "Discussing the concepts behind this elementary circuit and then moving on to build it."
     }
   
@@ -179,7 +179,7 @@
   
     ,{
       "title"			: "Game Of Pong",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/game-of-pong/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/game-of-pong/",
       "excerpt"		: "Making the classic ‘Pong’ Game using concept of Shift Registers"
     }
   
@@ -187,7 +187,7 @@
   
     ,{
       "title"			: "Working of a Digital Light Processing Projector",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/working-of-a-dlp-projector/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/working-of-a-dlp-projector/",
       "excerpt"		: "Describing the internals and working mechanism, as found in the How Things Work session"
     }
   
@@ -195,7 +195,7 @@
   
     ,{
       "title"			: "Getting Started with Beaglebone Black",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/tutorials/getting-started-with-beaglebone-black/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/tutorials/getting-started-with-beaglebone-black/",
       "excerpt"		: "Simple tutorial on using the BBB."
     }
   
@@ -203,7 +203,7 @@
   
     ,{
       "title"			: "Meanshift Algorithm for Image Processing",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/meanshift-algorithm-for-image-processing/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/meanshift-algorithm-for-image-processing/",
       "excerpt"		: "A very basic, yet essential, algorithm for removing noise and forming Clusters in an image."
     }
   
@@ -211,7 +211,7 @@
   
     ,{
       "title"			: "Glimpse Of The Naive Bayes' Classifier",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/informative/glimpse-of-the-naive-bayes-classifier/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/informative/glimpse-of-the-naive-bayes-classifier/",
       "excerpt"		: "A simple machine learning algorithm explained"
     }
   
@@ -219,7 +219,7 @@
   
     ,{
       "title"			: "Remote Controlling a bot with Android",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/projects/remote-controlling-a-bot-with-android/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/projects/remote-controlling-a-bot-with-android/",
       "excerpt"		: "How we implemented an Android+AVR based remote control for bots participating in XLR8 competition."
     }
   
@@ -227,7 +227,7 @@
   
     ,{
       "title"			: "Using OpenCV on Raspberry-Pi",
-      "link"			: "http://grubdragon.github.io/erciitb/blog/tutorials/using-opencv-on-raspberry-pi/",
+      "link"			: "https://grubdragon.github.io/erciitb/blog/tutorials/using-opencv-on-raspberry-pi/",
       "excerpt"		: "Getting OpenCV installed and running on Rpi, with necessary scripts and files"
     }
   
@@ -235,7 +235,7 @@
   
     ,{
       "title"			: "Aerodynamics",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/Aero",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/Aero",
       "excerpt"		: "Aerodynamics is the science that studies objects moving through air. It is closely related to fluid dynamics as air is considered a compressible fluid. Nowadays, aerodynamics is the utmost important factor in Formula One car performance. It has even nearly become one of the only aspects of performance gain due to the very marginal gains that can currently be made by engine changes or other mechanical component development. This downforce can be likened to a virtual increase in weight, pressing the car down onto the road and increasing the available frictional force between the car and the road, therefore enabling higher cornering speeds."
     }
   
@@ -243,7 +243,7 @@
   
     ,{
       "title"			: "Arduino Programming",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/arduino/",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/arduino/",
       "excerpt"		: "Learn Arduino right from the basics through this tutorial."
     }
   
@@ -251,7 +251,7 @@
   
     ,{
       "title"			: "AVR Programming",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/avr/",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/avr/",
       "excerpt"		: "Learn the concepts of AVR Programming through this tutorial."
     }
   
@@ -259,7 +259,7 @@
   
     ,{
       "title"			: "Basic Electronics",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/basic_electronics/",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/basic_electronics/",
       "excerpt"		: "Learn how basic sensors work and how to use them."
     }
   
@@ -267,7 +267,7 @@
   
     ,{
       "title"			: "Batteries",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/Batteries",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/Batteries",
       "excerpt"		: ""
     }
   
@@ -275,7 +275,7 @@
   
     ,{
       "title"			: "Chassis",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/Chassis",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/Chassis",
       "excerpt"		: "A chassis is the physical frame or structure of an automobile, an airplane, a desktop computer, or other multi-component device. An example of a chassis is the underpart of a motor vehicle, consisting of the frame (on which the body is mounted). If the running gear such as wheels and transmission, and sometimes even the driver’s seat, are included, then the assembly is described as a rolling chassis."
     }
   
@@ -283,7 +283,7 @@
   
     ,{
       "title"			: "Gears",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/Gears",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/Gears",
       "excerpt"		: "A gear is defined as “a toothed wheel that works with others to alter the relation between the speed of a driving mechanism (such as the engine of a vehicle) and the speed of the driven parts (the wheels).”"
     }
   
@@ -291,7 +291,7 @@
   
     ,{
       "title"			: "Line Follower Bot",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/LF",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/LF",
       "excerpt"		: "Line follower is an autonomous robot that follows a line, either a black line on white surface or vise-versa. Robot must be able to detect particular line and keep following it."
     }
   
@@ -299,7 +299,7 @@
   
     ,{
       "title"			: "Raspberry Pi",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/r_pi/",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/r_pi/",
       "excerpt"		: "Get started with using Raspberry Pi though this tutorial."
     }
   
@@ -307,7 +307,7 @@
   
     ,{
       "title"			: "XLR8",
-      "link"			: "http://grubdragon.github.io/erciitb/tutorials/XLR8",
+      "link"			: "https://grubdragon.github.io/erciitb/tutorials/XLR8",
       "excerpt"		: "XLR8 is the the first Technical Competition of the Academic year held by Robotics Club in IIT Bombay. The primary task is to build a manually controlled bot capable of negotiating different kinds of obstacles in its path in stipulated amount of time. The team which completes the task in minimum amount of time wins. There are also prizes for other aspects of the competition which are be declared during the XLR8 orientation."
     }
   
@@ -321,7 +321,7 @@
   
     ,{
       "title"			: "About the Jekyll Theme",
-      "link"			: "http://grubdragon.github.io/erciitb/about/",
+      "link"			: "https://grubdragon.github.io/erciitb/about/",
       "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
     }
   
@@ -329,7 +329,7 @@
   
     ,{
       "title"			: "Theme Setup",
-      "link"			: "http://grubdragon.github.io/erciitb/theme-setup/",
+      "link"			: "https://grubdragon.github.io/erciitb/theme-setup/",
       "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
     }
   
@@ -339,7 +339,7 @@
   
     ,{
       "title"			: "Meet The Team!",
-      "link"			: "http://grubdragon.github.io/erciitb/team/",
+      "link"			: "https://grubdragon.github.io/erciitb/team/",
       "excerpt"		: "Looking for people to contact? Find them here!"
     }
   
