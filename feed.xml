@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://grubdragon.github.io/erciitb//feed.xml" rel="self" type="application/atom+xml" /><link href="https://grubdragon.github.io/erciitb//" rel="alternate" type="text/html" /><updated>2017-05-17T23:11:16+05:30</updated><id>https://grubdragon.github.io/erciitb//</id><title type="html">Electronics and Robotics Club, IIT Bombay</title><subtitle>A place for tinkerers and the sort!</subtitle><entry><title type="html">Improving ADCs by intentionally adding noise</title><link href="https://grubdragon.github.io/erciitb//blog/informative/improving-adcs-with-noise/" rel="alternate" type="text/html" title="Improving ADCs by intentionally adding noise" /><published>2016-10-29T00:00:00+05:30</published><updated>2016-10-29T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/informative/improving-adcs-with-noise</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/informative/improving-adcs-with-noise/">&lt;p&gt;Everybody has this presumed notion that noise in an electronic system is bad.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://grubdragon.github.io/erciitb/feed.xml" rel="self" type="application/atom+xml" /><link href="http://grubdragon.github.io/erciitb/" rel="alternate" type="text/html" /><updated>2017-05-26T22:25:04+05:30</updated><id>http://grubdragon.github.io/erciitb/</id><title type="html">Electronics and Robotics Club, IIT Bombay</title><subtitle>A place for tinkerers and the sort!</subtitle><entry><title type="html">Get Electrified 3</title><link href="http://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/" rel="alternate" type="text/html" title="Get Electrified 3" /><published>2017-04-24T00:00:00+05:30</published><updated>2017-04-24T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/informative/get-electrified-3</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/informative/get-electrified-3/">&lt;p&gt;Electronics club conducted its last electrified session on 18th March, 2017. It was totally awesome as we got an opportunity to make a half adder, full adder, subtractor and priority encoder. Along with that we also learnt some cool stuff about digital circuits.&lt;/p&gt;
+
+&lt;p&gt;##Where do we begin from to make anything as simple as an adder?&lt;/p&gt;
+
+&lt;p&gt;We basically use a combinational circuit. Not only an adder but we can even make a subtractor, priority encoder, MUX and what not!&lt;/p&gt;
+
+&lt;p&gt;Combinational circuit is basically used for making those circuits which depends on the current state.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_0.png&quot; alt=&quot;Combinational Logic Circuits&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##So, let us now begin with how exactly do these combinational circuits function:&lt;/p&gt;
+
+&lt;h2 id=&quot;adder&quot;&gt;Adder:&lt;/h2&gt;
+
+&lt;p&gt;As you can guess an adder simply add two numbers. But why do we need a complicated circuit to just add numbers? Actually, adders are used in the arithmetic logic units in many computers and other kinds of processors.&lt;/p&gt;
+
+&lt;p&gt;There are two kinds of adders:&lt;/p&gt;
+
+&lt;h3 id=&quot;half-adder&quot;&gt;1) Half adder&lt;/h3&gt;
+
+&lt;h3 id=&quot;full-adder&quot;&gt;2) Full adder&lt;/h3&gt;
+
+&lt;p&gt;The major difference between a half adder and a full adder is that a full-adder has three inputs and two outputs where as a half adder has only two inputs and two outputs. In a full adder, the first two inputs are A and B and the third input is an input carry.&lt;/p&gt;
+
+&lt;p&gt;The circuit diagram and truth table of a half adder and full adder is shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_1.png&quot; alt=&quot;Half Adder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_2.png&quot; alt=&quot;Full Adder&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;subtractor&quot;&gt;Subtractor:&lt;/h2&gt;
+
+&lt;p&gt;Similarly, a subtractor subtracts two numbers. They are also of two types and as you can guess the two types are:&lt;/p&gt;
+
+&lt;h3 id=&quot;half-subtractor&quot;&gt;1) Half subtractor&lt;/h3&gt;
+
+&lt;h3 id=&quot;full-subtractor&quot;&gt;2) Full subtractor&lt;/h3&gt;
+
+&lt;p&gt;Just like in an adder, the subtractor has similar inputs just the difference is that instead of a carry we have a “borrow”.&lt;/p&gt;
+
+&lt;p&gt;The circuit diagram and truth table of a half subtractor and full subtractor is shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_3.png&quot; alt=&quot;Half Subtractor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_4.png&quot; alt=&quot;Full Subtractor&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;priority-encoder&quot;&gt;Priority Encoder:&lt;/h2&gt;
+
+&lt;p&gt;So basically, what a priority encoder do is that it gives the highest priority of the current input as an output. So, when an input with a higher priority is present, all other inputs with a lower priority will be ignored. The priority encoder comes in many different forms with an example of an 8-input priority encoder along with its truth table shown below.&lt;/p&gt;
+
+&lt;h2 id=&quot;to-3-bit-priority-encoder&quot;&gt;8-to-3 Bit Priority Encoder:&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_5.png&quot; alt=&quot;8 to 3 bit Priority Encoder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Where X equals “don’t care”, that is it can be either logic “0” or logic “1”.&lt;/p&gt;
+
+&lt;h2 id=&quot;multiplexer-mux-and-demultiplexer&quot;&gt;Multiplexer (MUX) and Demultiplexer:&lt;/h2&gt;
+
+&lt;h2 id=&quot;how-are-multiple-signals-combined&quot;&gt;How are multiple signals combined?&lt;/h2&gt;
+
+&lt;p&gt;MUX is used for this purpose. It has N Select lines, 2N input lines, and it routes one of the input lines to the output. Conceptually, a MUX may be thought of as 2N switches. For a given combination of the select inputs, only one of the switches closes (makes contact), and the others are open.&lt;/p&gt;
+
+&lt;p&gt;It is obvious from the name that a demultiplexer do the reverse of what a multiplexer do. It takes a single input (I) and routes it to one of the output lines. For N Select inputs, the number of output lines is 2^N.&lt;/p&gt;
+
+&lt;p&gt;Circuit diagram and truth table of a multiplexer is shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_6.png&quot; alt=&quot;4:1 Multiplexer&quot; /&gt;  &lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_7.png&quot; alt=&quot;Truth Table&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Circuit diagram and truth table of a demultiplexer is shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_8.png&quot; alt=&quot;1:4 Demultiplexer&quot; /&gt;  &lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_9.png&quot; alt=&quot;Truth Table&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;encoders-and-decoders&quot;&gt;Encoders and Decoders:&lt;/h2&gt;
+
+&lt;p&gt;You might be wondering what is the need of an encoder?&lt;/p&gt;
+
+&lt;p&gt;It is actually used to convert information from one format to another for the purpose of standardization, speed and compressions.&lt;/p&gt;
+
+&lt;p&gt;In encoders, only one input line is assumed to be active. The binary number corresponding to the active input line appears at the output pins. The N output lines can represent 2N binary numbers, each corresponding to one of the M input lines, i.e., we can have M = 2N. Some encoders have M &amp;lt; 2 N.&lt;/p&gt;
+
+&lt;p&gt;Similarly, you can guess the functioning of a decoder. For each input combination, only one output line is active (which means 0 or 1, depending on whether the outputs are active low or active high). Since there are 2N input combinations, there could be 2N output lines, i.e., M = 2N. However, there are decoders with M &amp;lt; 2 N as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_10.png&quot; alt=&quot;Encoder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-3/image_11.png&quot; alt=&quot;Decoder&quot; /&gt;&lt;/p&gt;</content><author><name>Mayanka Medhe</name></author><category term="[&quot;Informative&quot;]" /><category term="Digital Electronics" /><category term="Adder" /><category term="MUX" /><summary type="html">Tinkering with Digital Electronics!</summary></entry><entry><title type="html">Experiences with Robotic Arm</title><link href="http://grubdragon.github.io/erciitb/blog/robotic_arm/" rel="alternate" type="text/html" title="Experiences with Robotic Arm" /><published>2016-12-20T00:00:00+05:30</published><updated>2016-12-20T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/robotic_arm</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/robotic_arm/">&lt;p&gt;We organised a session on Grippers where enthusiastic freshers participated in an overnight hackathon which was preceded by Tutorial for the same in Tinkerers Laboratory,IIT Bombay.  
+Here is a blog post by one such team which participated in the event and successfully completed the Gripper.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;center-team-hifi&quot;&gt;&lt;center&gt; Team HIFI&lt;/center&gt;&lt;/h1&gt;
+&lt;center&gt; - Maitrey Gramopadhye, Swadha Sanghvi, Bhuyashi Deka, Vikrant Nagpure
+
+&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/Gripper/roboarm.jpg&quot; alt=&quot;team&quot; /&gt;
+
+&lt;p&gt;
+All at least once we've tried opening up clocks in our house or the batteries of our mobile. Well, to satisfy this techie spirit a gripper bot session was held on 23 November. we had been waiting to get our Xlr8 bots out of our cupboards and and do more with them as our mentors had promised we would. The tech nightout held in tinker's lab started at 9 pm. Mentors were very enthusiastic about explaining the concept of grippers and having attended the get mechanised and get electrified session it wasn't hard to get started.
+&lt;/p&gt;
+&lt;p&gt;
+We first set to the planning of the steps to take. After half an hour of debating we decided on making the gripper attached with gears which were rotated by a worm gear, and to attach this gripper mechanism on a ramp, which could move the gripper up and down, which would be on our xlr8 bots. the movement of the gripper, ramp and the bot itself was to be controlled by giving commands from a laptop to an arduino.
+&lt;/p&gt;
+&lt;p&gt;
+Starting the work on the gripper we first thought of attaching a 10 rpm motor to the worm gear, but that gave us an angular velocity of 1 rotation per 2.4 minutes with the gripper. so we switched to a 150 rpm motor. Next we had to decide the shape of the gripper arm setup and attach it to the spur gears.
+&lt;/p&gt;
+&lt;p&gt;
+Based on a youtube video we chose to have 4 wooden planks in each arm with a setup such that the forward most arm is always pointing in the forward direction. Then to attach the arms to gears we drilled holes in the arms and fitted them to the gears with 5 mm screws, which stayed together by friction.    
+&lt;/p&gt;
+&lt;p&gt;
+To fix the worm gear on the motor was a major task, as we had to use a pointed screw to avoid the relative motion of the shaft of motor with gear, but even after that the gear didn't rotate along an axis parallel to the shaft. due to this the spur gears experienced an upward force and bounced out of the screws of which they were attached. we relied once again on friction to resolve this issue and thickened the screws by covering them with tape.    
+&lt;/p&gt;
+&lt;p&gt;
+Now having almost completed the gripper we set to work on the ramp. It's called a ramp here because it moved like one. We fitted a rack on it's lower side and a 10 rpm on surface of the bot to move the ramp.In this way the ramp moved forward when it moved up and back when it moved down. To keep it guided along a straight path we attached two small rods on either side of the ramp to support its motion.    
+&lt;/p&gt;
+&lt;p&gt;
+After finishing the mechanical aspect of the project it was time to bring the gripper to life and attach the arduino. Choosing to stick as close to the Xlr8 setup as possible we kept the circuit for motion of the bot intact and built another like it for the ramp and the gripper. here the motors were attached to L293D and it to the arduino via an 7806.    
+&lt;/p&gt;
+&lt;p&gt;
+In the code of the arduino were 8 commands, forward, back, right and left to control the bot, up and down to control the ramp and open and close to control the gripper. the working principle was simply pin high and pin low, of the motors.     
+&lt;/p&gt;
+&lt;p&gt;
+Our next move would now be to sort out the few things still out of shape. We have thought of trying to attach the worm gear to the motor by glue as then it might align parallel to it. Also by installing a bluetooth module in the circuit the bot will no longer be needed to be wired.    
+&lt;/p&gt;
+&lt;p&gt;
+Overall, spending 4 days and 5 nights in TL, putting the post Endsem lukkha to tech were worth it. the best part was seeing the bot actually work.    
+&lt;/p&gt;
+&lt;p&gt;
+We would like to thank our mentors and technicians of TL for helping us through it.    
+&lt;/p&gt;
+Cheers!
+&lt;/center&gt;</content><author><name>Maitrey Gramopadhye, Swadha Sanghvi, Bhuyashi Deka, Vikrant Nagpure</name></author><category term="blog" /><category term="Gripper" /><category term="Automation" /><category term="Arduino" /><summary type="html">We organised a session on Grippers where enthusiastic freshers participated in an overnight hackathon which was preceded by Tutorial for the same in Tinkerers Laboratory,IIT Bombay.  
+Here is a blog post by one such team which participated in the event and successfully completed the Gripper.</summary></entry><entry><title type="html">Improving ADCs by intentionally adding noise</title><link href="http://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/" rel="alternate" type="text/html" title="Improving ADCs by intentionally adding noise" /><published>2016-10-29T00:00:00+05:30</published><updated>2016-10-29T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/informative/improving-adcs-with-noise/">&lt;p&gt;Everybody has this presumed notion that noise in an electronic system is bad.
 We all learn about ways to reduce noise in the circuits we implement to get
 better results. In this post we will see a case where intentionally &lt;em&gt;adding&lt;/em&gt;
 noise to a system will give better results.&lt;/p&gt;
@@ -89,7 +218,7 @@ to the expected value &lt;script type=&quot;math/tex&quot;&gt;c + \frac{1}{2}&lt
 
 &lt;h2 id=&quot;block-diagram-for-adding-dither&quot;&gt;Block diagram for adding dither&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/improving-adcs-with-noise/block_diag.png&quot; alt=&quot;block diagram&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/improving-adcs-with-noise/block_diag.png&quot; alt=&quot;block diagram&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Sampler just reads the value of its input at &lt;script type=&quot;math/tex&quot;&gt;t = nT&lt;/script&gt;, hence it gives
 a sample at every &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; seconds. From our previous derivation we can say that&lt;/p&gt;
@@ -135,7 +264,7 @@ Hence we can see that dither gives us a better approximation after quantization.
 &lt;p&gt;&lt;em&gt;Note: The leaf image is using a slightly better algorithm than just adding dither
 and converting to binary (Random dithering). Such an image would look much worse, so for representative
 purposes I have used this image. You can read more about better algorithms on the
-wikipedia page of Dither&lt;/em&gt;&lt;/p&gt;</content><author><name>Meet Udeshi</name></author><category term="[&quot;Informative&quot;]" /><category term="ADC" /><category term="Dither" /><summary type="html">How noise addition helps in increasing accuracy of Analog to Digital conversion</summary></entry><entry><title type="html">Get Electrified 2</title><link href="https://grubdragon.github.io/erciitb//blog/projects/get-electrified-2/" rel="alternate" type="text/html" title="Get Electrified 2" /><published>2016-09-29T00:00:00+05:30</published><updated>2016-09-29T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/projects/get-electrified-2</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/projects/get-electrified-2/">&lt;p&gt;Greetings from Electronics Club IIT Bombay&lt;/p&gt;
+wikipedia page of Dither&lt;/em&gt;&lt;/p&gt;</content><author><name>Meet Udeshi</name></author><category term="[&quot;Informative&quot;]" /><category term="ADC" /><category term="Dither" /><summary type="html">How noise addition helps in increasing accuracy of Analog to Digital conversion</summary></entry><entry><title type="html">Get Electrified 2</title><link href="http://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/" rel="alternate" type="text/html" title="Get Electrified 2" /><published>2016-09-29T00:00:00+05:30</published><updated>2016-09-29T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/projects/get-electrified-2</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/projects/get-electrified-2/">&lt;p&gt;Greetings from Electronics Club IIT Bombay&lt;/p&gt;
 
 &lt;p&gt;We conduct Electrified sessions regularly wherein some basic electronics
 concepts are discussed and some cool DIY projects based on the concepts
@@ -156,7 +285,7 @@ mathematical operations such as addition, subtraction , integration and
 differentiation etc.&lt;/p&gt;
 
 &lt;p&gt;For more details of Opamps you can refer our
-&lt;a href=&quot;/tutorials/basic_electronics/&quot;&gt;&lt;em&gt;tutorial&lt;/em&gt;&lt;/a&gt;
+&lt;a href=&quot;http://grubdragon.github.io/erciitb/tutorials/basic_electronics/&quot;&gt;&lt;em&gt;tutorial&lt;/em&gt;&lt;/a&gt;
 on basic electronics.&lt;/p&gt;
 
 &lt;h3 id=&quot;bipolar-junction-transistors&quot;&gt;Bipolar Junction Transistors&lt;/h3&gt;
@@ -188,7 +317,7 @@ frequency.&lt;/p&gt;
 
 &lt;p&gt;Here is the circuit of xyloband:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/get-electrified-2/xylo_band_circuit.jpg&quot; alt=&quot;xyloband_circuit&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-2/xylo_band_circuit.jpg&quot; alt=&quot;xyloband_circuit&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We start by taking the input of music via a microphone. We can model the
 microphone as unipolar resistor. Therefore we have made a voltage
@@ -242,7 +371,7 @@ speaker.&lt;/p&gt;
 
 &lt;p&gt;Here is the circuit diagram of the Audio Amplifier:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/get-electrified-2/audio_amplifier_circuit.jpg&quot; alt=&quot;audio_amplifier_circuit&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/get-electrified-2/audio_amplifier_circuit.jpg&quot; alt=&quot;audio_amplifier_circuit&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Can you see an AC source in the left part of circuit ? That’s where we
 connect the audio jack output from our cell phones.&lt;/p&gt;
@@ -260,7 +389,7 @@ playing the music.&lt;/p&gt;
 
 &lt;p&gt;Let’s have a look at how the things turned out to be :)&lt;/p&gt;
 
-&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/So6K92vzHUw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Pranav Sankhe</name></author><category term="[&quot;Projects&quot;]" /><category term="Analog Electronics" /><category term="Xyloband" /><category term="Audio Amplifier" /><summary type="html">How we designed and made xylobands and audio amplifiers!</summary></entry><entry><title type="html">The Tech Behind Games</title><link href="https://grubdragon.github.io/erciitb//blog/informative/the-tech-behind-games/" rel="alternate" type="text/html" title="The Tech Behind Games" /><published>2016-08-31T00:00:00+05:30</published><updated>2016-08-31T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/informative/the-tech-behind-games</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/informative/the-tech-behind-games/">&lt;p&gt;Gaming is one of the most popular form of entertainment (and probably will hold this position forever).
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/So6K92vzHUw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Pranav Sankhe</name></author><category term="[&quot;Projects&quot;]" /><category term="Analog Electronics" /><category term="Xyloband" /><category term="Audio Amplifier" /><summary type="html">How we designed and made xylobands and audio amplifiers!</summary></entry><entry><title type="html">The Tech Behind Games</title><link href="http://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/" rel="alternate" type="text/html" title="The Tech Behind Games" /><published>2016-08-31T00:00:00+05:30</published><updated>2016-08-31T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/informative/the-tech-behind-games/">&lt;p&gt;Gaming is one of the most popular form of entertainment (and probably will hold this position forever).
 Also, mobile gaming is on a boom now a days. Almost every good game needs its controls to be intuitive and flexible. 
 There has been a lot of research and upgradations in the field of motion sensing.
 Some of the major breakthroughs are Gyroscope, Accelerometer, Magnetometer, etc. Let’s know about these in detail.&lt;/p&gt;
@@ -269,7 +398,7 @@ Some of the major breakthroughs are Gyroscope, Accelerometer, Magnetometer, etc.
 
 &lt;p&gt;One key element of interaction is local motion of the phone, such as linear acceleration, rotational velocity, etc.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/the-tech-behind-games/accel_gyro.jpg&quot; alt=&quot;accel_gyro&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/accel_gyro.jpg&quot; alt=&quot;accel_gyro&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -288,7 +417,7 @@ vector in 3D.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/the-tech-behind-games/capacitor_diagram.jpg&quot; alt=&quot;capacitor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/capacitor_diagram.jpg&quot; alt=&quot;capacitor&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -347,7 +476,7 @@ distance between us and the satellite as we also know the time we received the w
 and hence time it took to travel the distance. The speed of the wave is equal
 to the speed of light because it is an electromagnetic wave.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/the-tech-behind-games/gps.jpg&quot; alt=&quot;gps&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/gps.jpg&quot; alt=&quot;gps&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Using this distance measurement from 3 different satellites and their orbital position
 we get three spheres as loci of our position. The earth is the fourth sphere. Using coordinate geometry
@@ -362,7 +491,7 @@ which will be our location.&lt;/p&gt;
 graphics to real world. This is done by displaying the real world and additional
 “augmented” data together on one screen.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/the-tech-behind-games/ar.jpg&quot; alt=&quot;AR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/the-tech-behind-games/ar.jpg&quot; alt=&quot;AR&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This has varied applications like visual art, greeting cards, video games
 (any fans of Pokemon Go or Ingress here!)&lt;/p&gt;
@@ -377,7 +506,7 @@ There other components like angle, height, width, etc. are also considered to gi
 &lt;p&gt;Any game like Pokemon Go or Ingress will interface these sensors and use this
 data to enhance your experience of interactivity with the game. They use AR
 to give an immersive feel to the game, much like you are in the game’s world
-and playing it in real life!&lt;/p&gt;</content><author><name>Shrvan Amlekar</name></author><category term="[&quot;Informative&quot;]" /><category term="Sensors" /><category term="Augmented Reality" /><summary type="html">How today's mobile games use the various sensors to provide the ultimate gaming experience!</summary></entry><entry><title type="html">Functioning of L293D motor driver</title><link href="https://grubdragon.github.io/erciitb//blog/tutorials/l293d/" rel="alternate" type="text/html" title="Functioning of L293D motor driver" /><published>2016-08-14T00:00:00+05:30</published><updated>2016-08-14T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/tutorials/l293d</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/tutorials/l293d/">&lt;p&gt;Last year I entered IIT Bombay and had my first face off with the modern
+and playing it in real life!&lt;/p&gt;</content><author><name>Shrvan Amlekar</name></author><category term="[&quot;Informative&quot;]" /><category term="Sensors" /><category term="Augmented Reality" /><summary type="html">How today's mobile games use the various sensors to provide the ultimate gaming experience!</summary></entry><entry><title type="html">Functioning of L293D motor driver</title><link href="http://grubdragon.github.io/erciitb/blog/tutorials/l293d/" rel="alternate" type="text/html" title="Functioning of L293D motor driver" /><published>2016-08-14T00:00:00+05:30</published><updated>2016-08-14T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/tutorials/l293d</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/tutorials/l293d/">&lt;p&gt;Last year I entered IIT Bombay and had my first face off with the modern
 tech then. We had a bot racing competition called XLR8 in which we have
 to prepare a bot on our own and race it with others so as to win. Seems
 easy? Not as much as it seems to be .&lt;/p&gt;
@@ -400,11 +529,11 @@ in a simple way.&lt;/p&gt;
 
 &lt;p&gt;Presuming we have this driver , its datasheet and zeal to learn.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/l293d/image00.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image00.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It looks like this from outside and the connections inside are :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/l293d/image01.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image01.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Working Of L293D&lt;/strong&gt;&lt;/p&gt;
 
@@ -418,7 +547,7 @@ component called H-Bridge&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;H-Bridge&lt;/strong&gt;&lt;br /&gt;
 A H-bridge looks like following :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/l293d/image02.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image02.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It is used to apply voltage across a load( here, a motor ) in both the
 directions. So we can easily infer from this if the voltage across the
@@ -497,7 +626,7 @@ set too low!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;LOGIC TABLE FOR L293D&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/l293d/image03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/l293d/image03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Similarly for PIN 9 ( ~PIN 1 ) , PIN 10( ~PIN2 ) and PIN 15 ( ~PIN7 ).&lt;/p&gt;
 
@@ -538,7 +667,43 @@ heating of IC.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Happy tinkering ! :D&lt;/p&gt;</content><author><name>Sanket Agrawal</name></author><category term="[&quot;Tutorials&quot;]" /><category term="XLR8" /><category term="L293D" /><category term="Motor Driver" /><summary type="html">How to implement H-bridge for motor control</summary></entry><entry><title type="html">Making a Sound Meter in Python</title><link href="https://grubdragon.github.io/erciitb//blog/tutorials/sound-meter/" rel="alternate" type="text/html" title="Making a Sound Meter in Python" /><published>2016-08-04T00:00:00+05:30</published><updated>2016-08-04T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/tutorials/sound-meter</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/tutorials/sound-meter/">&lt;p&gt;Those who have seen the 3 blocks of audience in PCSA compete during the STAB Orientation for the loudest cheer, know what this Sound Meter is.&lt;/p&gt;
+&lt;p&gt;Happy tinkering ! :D&lt;/p&gt;</content><author><name>Sanket Agrawal</name></author><category term="[&quot;Tutorials&quot;]" /><category term="XLR8" /><category term="L293D" /><category term="Motor Driver" /><summary type="html">How to implement H-bridge for motor control</summary></entry><entry><title type="html">Machine Learning</title><link href="http://grubdragon.github.io/erciitb/blog/machinel/" rel="alternate" type="text/html" title="Machine Learning" /><published>2016-08-11T00:00:00+05:30</published><updated>2016-08-11T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/machinel</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/machinel/">&lt;p&gt;Wonder how Facebook identifies you and your friends in photos? Wonder how Gmail automatically detects and filters out spam? Or how Autosuggest in your smartphones works? All these answers lie in Machine Learning! Read ahead to find out! ;)&lt;/p&gt;
+
+&lt;p&gt;Machine Learning is the science of getting computers to act without being explicitly programmed to do so. The machine is able to learn and implement algorithms, and tries to figure out/determine output.&lt;/p&gt;
+
+&lt;p&gt;Gmail is able to classify mails into spam and not spam. How? It figures it out from content of the mail. “Mark as spam” helps in classification, as it takes these as input. Any ML Algorithm learns from data. Classifying handwritten numbers as digits is a common application of ML. As a very primal example, process of identifying numbers- see how many straight lines it has.&lt;/p&gt;
+
+&lt;p&gt;ML is of two common types- Show four different red apples, give a red fruit and ask whether it’s an apple or not. You have a predefined set of data. This is known as Supervised Learning.&lt;/p&gt;
+
+&lt;p&gt;Suppose we give the machine no output, but have data, it’s an example of unsupervised learning. In this case, the machine tries to categorise data into new groups, based on features of the images.&lt;/p&gt;
+
+&lt;p&gt;Machine Learning can solve things that are solvable only. We cannot find cost of houses from number of potted plants in the house. Will give wrong results obviously.&lt;/p&gt;
+
+&lt;p&gt;Gmail’s spam filter- part of it is supervised learning. Unsupervised learning- realises spam automatically. It’s a dynamic process. Way of filtering keeps changing along with changing ways of writing spam. Another example- Captcha. There’s an IP algorithm which is trying to learn if the captcha provided is correct. So, next time you see a captcha, remember, you are helping a Machine Learning Algorithm get better with your identification of the letters there. Basically, Captcha uses human confirmation to check if the letters/numbers the human provides is same as the output of the Machine Learning Algorithm that’s used to identify the letters in there!&lt;/p&gt;
+
+&lt;p&gt;So, how does Machine Learning actually work? 
+The first and most important thing we need to do is estimation of weights of the various parameters we have, on the basis of which the output is to be decided. Regression is concerned with modelling the relationship between variables that is iteratively refined using a measure of error in the predictions made by the model. Example of Linear Regression- Best fit line. Estimation of cost of house based on size of house. Line’s m and can be determined- these are the weights (Line is taken to be y=mx+c). Caution- Enough features are required to check. Error function is used to check the discrepancies in the data and output. Squared difference error is normally used to correct the hypothesis and find the weights. Regularisation is used in almost all algorithms. It is basically addition of a term to the error, sum of modulus of all parameters. It can choose any degree polynomial, it’s not restricted to a straight line.&lt;/p&gt;
+
+&lt;p&gt;The most broad category- neural networks.
+We are applying logic behind it, so we can’t treat it as a black box.&lt;/p&gt;
+
+&lt;p&gt;Common problems solved using ML-
+Classification problems- Classifying a new object into given groups.
+Clustering Problem- It’s an example of unsupervised learning. Clustering is the assignment of a set of observations into subsets (called clusters) so that observations in the same cluster are similar in some sense.
+Unsupervised learning will be mostly classification problems.&lt;/p&gt;
+
+&lt;p&gt;Neural Networks are a tool used in ML. It’s an attempt to mimic the brain. Neurons work on electrical signals. If they get a signal more than threshold they fire, else remain grounded. Outputs of neurons are added up. Human neural system- one neuron firing gives signals to other nodes. Synapse- chemical triggering. Weights of inputs decides output of a neuron. Output is combination of weight vectors.
+There is a constant bias term which decides the threshold. Network learns by itself and decides the threshold parameter. Weights are set into vectors, and learning happens by matrix multiplication.
+Most often, neural networks are used in classification problems. Based on data, it develops the weights automatically. We just provide the structure. Layered networks of neurons. Each layer is a different function.
+Parameters are not normally one dimensional, because we need to incorporate all the features together, plus there might be constraints in the parameters. Hence we need to use gradient descent. To know more about stochastic gradient descent, go to- https://en.wikipedia.org/wiki/Stochastic_gradient_descent&lt;/p&gt;
+
+&lt;p&gt;Square error function- Sum of squares of errors. Minimise the square error function to minimise error. Stochastic Gradient Descent- Mean Error Function can be thought of as a paraboloid type curve, the decreasing gradient takes you towards the minima. It’s similar to the Newton Raphson Method. However, the square error function can be solved arithmetically only, not analytically.
+Weights are updated by minimising errors. Back tracking or back propagation is done. Neural networks can approximate almost everything. No one actually knows the exact mechanisms of a neural network. We can’t get an intuition behind it.
+Initially, weights are all set to one (you face some problems if the weights are initially set to zero).&lt;/p&gt;
+
+&lt;p&gt;Genetic Algorithms are an application of Neural Networks.&lt;/p&gt;
+
+&lt;p&gt;Courtesy (Speakers in the GD): Siddhant Garg, Karan Chadha, Arka Sadhu&lt;/p&gt;</content><author><name>Shobhna Misra</name></author><category term="blog" /><category term="Machine Learning" /><summary type="html">Wonder how Facebook identifies you and your friends in photos? Wonder how Gmail automatically detects and filters out spam? Or how Autosuggest in your smartphones works? All these answers lie in Machine Learning! Read ahead to find out! ;)</summary></entry><entry><title type="html">Making a Sound Meter in Python</title><link href="http://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/" rel="alternate" type="text/html" title="Making a Sound Meter in Python" /><published>2016-08-04T00:00:00+05:30</published><updated>2016-08-04T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/tutorials/sound-meter</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/tutorials/sound-meter/">&lt;p&gt;Those who have seen the 3 blocks of audience in PCSA compete during the STAB Orientation for the loudest cheer, know what this Sound Meter is.&lt;/p&gt;
 
 &lt;h2 id=&quot;target&quot;&gt;Target&lt;/h2&gt;
 
@@ -665,7 +830,7 @@ heating of IC.&lt;/p&gt;
 &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;terminate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Have fun!&lt;/p&gt;</content><author><name>Krish Mehta</name></author><category term="[&quot;Tutorials&quot;]" /><category term="python" /><category term="audio" /><summary type="html">A basic usage of audio handling libraries for creating a fun sound-meter!</summary></entry><entry><title type="html">Sudoku Solver</title><link href="https://grubdragon.github.io/erciitb//blog/projects/sudoku-solver/" rel="alternate" type="text/html" title="Sudoku Solver" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/projects/sudoku-solver</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/projects/sudoku-solver/">&lt;p&gt;&lt;strong&gt;Sudoku Solver&lt;/strong&gt; is the collection of very basic image processing techniques. A very good way to start is the OpenCV library which can be compiled on almost all the platforms. &lt;strong&gt;OpenCV&lt;/strong&gt;(open source computer vision )is a library of programming functions mainly aimed at real time computer vision. Through this project ,my main motivation was to explore what OpenCV offers in a little bit detail . There are already many blogs dealing with how to recognise a whole sudoku puzzle but it  was nevertheless  a pleasant experience doing it on my own and writing this blog ( It is pretty obvious that I too would have been lost without all those online resources , blogs , and documentations.)&lt;/p&gt;
+&lt;p&gt;Have fun!&lt;/p&gt;</content><author><name>Krish Mehta</name></author><category term="[&quot;Tutorials&quot;]" /><category term="python" /><category term="audio" /><summary type="html">A basic usage of audio handling libraries for creating a fun sound-meter!</summary></entry><entry><title type="html">Sudoku Solver</title><link href="http://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/" rel="alternate" type="text/html" title="Sudoku Solver" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/projects/sudoku-solver</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/projects/sudoku-solver/">&lt;p&gt;&lt;strong&gt;Sudoku Solver&lt;/strong&gt; is the collection of very basic image processing techniques. A very good way to start is the OpenCV library which can be compiled on almost all the platforms. &lt;strong&gt;OpenCV&lt;/strong&gt;(open source computer vision )is a library of programming functions mainly aimed at real time computer vision. Through this project ,my main motivation was to explore what OpenCV offers in a little bit detail . There are already many blogs dealing with how to recognise a whole sudoku puzzle but it  was nevertheless  a pleasant experience doing it on my own and writing this blog ( It is pretty obvious that I too would have been lost without all those online resources , blogs , and documentations.)&lt;/p&gt;
 
 &lt;h3 id=&quot;what-actually-this-project-does&quot;&gt;What actually this project does?&lt;/h3&gt;
 
@@ -700,7 +865,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;p&gt;First of all we need is an input image.  We need to load a sudoku image .&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/sudoku-solver/image1.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image1.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;     &lt;span class=&quot;n&quot;&gt;Mat&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sudoku.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CV_LOAD_IMAGE_UNCHANGED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -721,7 +886,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;p&gt; I  have done just noise removal and adaptive thresholding and  it is working so haven’t done anything extra. Below is the result:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/sudoku-solver/image2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;extracting-the-sudoku-&quot;&gt;Extracting the Sudoku :&lt;/h3&gt;
 
@@ -760,7 +925,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;    &lt;span class=&quot;n&quot;&gt;drawContours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Scalar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/sudoku-solver/image3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now we have found out the boundary of the sudoku and next we need to to do is extract this much part and then work on it.&lt;/p&gt;
 
@@ -825,7 +990,7 @@ It involves two major challenges:&lt;/p&gt;
 
 &lt;h3 id=&quot;the-result-we-get-is&quot;&gt;The result we get is:&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/sudoku-solver/image4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now apply the pre-processing as we did earlier and get the thresholded image and now we need to extract each grids centre the digit and then finally apply OCR.
 So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;450 and therefore our every sub grids will be a matrix of 50&lt;/em&gt;50 so we can extract each grid by extracting the sub grids of 50*50 and store all the images in a vector.&lt;/p&gt;
@@ -863,9 +1028,9 @@ So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;4
 
 &lt;h3 id=&quot;the-results-is-as-follows&quot;&gt;The results is as follows:&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/sudoku-solver/image5.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;/assets/blog/sudoku-solver/image6.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;/assets/blog/sudoku-solver/image7.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image5.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image6.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/sudoku-solver/image7.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now we have all the digits centered what we now need to do is apply OCR . There are huge number of techniques for implementing OCR and huge number of pattern recognition algorithm and for my implementation i choose K-Nearest Neighbour algorithm as it is already available in OpenCV library.The algorithm caches all training samples and predicts responses for new sample by analyzing a certain number of the nearest neighbour of the sample using voting and calculated mean. For it you need to create sample data and train those images and recognise digits from previously trained data. I created training samples by collecting images from various sudoku .My training data can be found out on this &lt;a href=&quot;https://drive.google.com/open?id=0ByDK_y_Ss5KbSFJkU19fSG15QXc&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
 
@@ -936,13 +1101,13 @@ So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;4
 
 &lt;p&gt;Although,I did not get 100% correct results but anyways it was overall a great learning experience.&lt;/p&gt;
 
-&lt;p&gt;The whole source code can be found &lt;a href=&quot;https://drive.google.com/open?id=0ByDK_y_Ss5KbS2xtQ0pEOGxkV1E&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Anant Jain</name></author><category term="[&quot;Projects&quot;]" /><category term="Algorithm" /><category term="OpenCV" /><summary type="html">OpenCV project for reading and solving Sudokus</summary></entry><entry><title type="html">Switched Mode Power Supply Technology</title><link href="https://grubdragon.github.io/erciitb//blog/projects/smps/" rel="alternate" type="text/html" title="Switched Mode Power Supply Technology" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/projects/smps</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/projects/smps/">&lt;p&gt;Switched Mode Power Supply or SMPS is an electronic power supply that incorporates a switching regulator to convert electrical power efficiently. Like other power supplies, an SMPS transfers power from a source, like mains power, to a load, such as a PC, while converting voltage and current characteristics. A typical SMPS is seen down here :&lt;/p&gt;
+&lt;p&gt;The whole source code can be found &lt;a href=&quot;https://drive.google.com/open?id=0ByDK_y_Ss5KbS2xtQ0pEOGxkV1E&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Anant Jain</name></author><category term="[&quot;Projects&quot;]" /><category term="Algorithm" /><category term="OpenCV" /><summary type="html">OpenCV project for reading and solving Sudokus</summary></entry><entry><title type="html">Switched Mode Power Supply Technology</title><link href="http://grubdragon.github.io/erciitb/blog/projects/smps/" rel="alternate" type="text/html" title="Switched Mode Power Supply Technology" /><published>2016-07-31T00:00:00+05:30</published><updated>2016-07-31T00:00:00+05:30</updated><id>http://grubdragon.github.io/erciitb/blog/projects/smps</id><content type="html" xml:base="http://grubdragon.github.io/erciitb/blog/projects/smps/">&lt;p&gt;Switched Mode Power Supply or SMPS is an electronic power supply that incorporates a switching regulator to convert electrical power efficiently. Like other power supplies, an SMPS transfers power from a source, like mains power, to a load, such as a PC, while converting voltage and current characteristics. A typical SMPS is seen down here :&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/blog/smps/image1.png&quot; alt=&quot;image&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/smps/image1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;circuit-diagram&quot;&gt;Circuit Diagram&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/smps/image_2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/smps/image_2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The components F1 and F2 are referred to as Fuse.&lt;/em&gt;&lt;/p&gt;
 
@@ -966,250 +1131,10 @@ So, we can extract each grids as we know our image is a matrix of 450&lt;em&gt;4
 
 &lt;p&gt;When we use an adapter-looking thing to power Arduino, it converts 220V supply to a 12V supply required to power the Arduino. This is achieved by the SMPS present inside the black part of the adapter.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/smps/image_3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://grubdragon.github.io/erciitb/assets/blog/smps/image_3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The black box looking thing attached to a laptop charger is actually an SMPS to convert the input to an output DC Voltage to charge the battery.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-to-use-it-with-arduino&quot;&gt;How to use it with Arduino&lt;/h3&gt;
 
-&lt;p&gt;Suppose we need to power a device which works at a higher voltage and power supply than an arduino can provide, we can use an SMPS to power the circuit. But if we want to control the turning on and off of the device using arduino we might face a problem in this case. In this case a relay will work the best as relay can be used to control a higher rated circuit using Arduino’s lower rated circuit.&lt;/p&gt;</content><author><name>Dhrumil Shah</name></author><category term="[&quot;Projects&quot;]" /><category term="Rectifier" /><category term="Power Electronics" /><summary type="html">Learn about the technology present in chargers!</summary></entry><entry><title type="html">Pulse Detection Circuit</title><link href="https://grubdragon.github.io/erciitb//blog/projects/pulse-detection-circuit/" rel="alternate" type="text/html" title="Pulse Detection Circuit" /><published>2016-07-01T00:00:00+05:30</published><updated>2016-07-01T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/projects/pulse-detection-circuit</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/projects/pulse-detection-circuit/">&lt;p&gt;In my ITSP, our aim was to make a polygraph machine for which we needed to monitor pulse of the examinee continuously over time. So here is what we did.&lt;/p&gt;
-
-&lt;h3 id=&quot;required-components&quot;&gt;Required Components&lt;/h3&gt;
-
-&lt;p&gt;IC LM324 (quad op-amp), 
-IR LED, 
-IR Sensor, 
-A red LED, 
-Resistors, 
-Capacitors.&lt;/p&gt;
-
-&lt;p&gt;The technique used is called Photoplethysmography (PPG).
-There is an IR LED whose light is reflected by the skin and received by an IR sensor. The changes in volume of blood over the time changes the amount of reflection which is detected by the IR sensor and it is amazing how we can filter and amplify to get the pulse in desired range.&lt;/p&gt;
-
-&lt;h3 id=&quot;basic-idea&quot;&gt;Basic Idea&lt;/h3&gt;
-
-&lt;p&gt;There are two types of unwanted voltage signals in the signal received from input: the constant DC voltage and the noise from surroundings. For removing the DC voltage, there is (passive) high pass RC filter with 0.7Hz as cut off frequency. To remove the noise, there is (active) low pass op-amp filter with 2.3Hz as cut off frequency and gain of nearly 100.&lt;/p&gt;
-
-&lt;h4 id=&quot;here-is-the-final-circuit-i-used&quot;&gt;Here is the final circuit I used:&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/pulse-detection-circuit/image01.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-modifications-were-needed-in-the-basic-model&quot;&gt;What modifications were needed in the basic model?&lt;/h3&gt;
-
-&lt;p&gt;So in this module, there is, in net effect, a band pass filter that allows 0.7Hz to 2.3Hz and amplifies the signal by 100. But this provides neither sufficient filtering nor sufficient amplification. To further filter and amplify the signal, the signal from first module is fed to an exact duplicate module containing passive high pass filter and active low pass filter. 
-After this, amplification is nearly 10,000 and signal has frequency component only between 0.7Hz and 2.3Hz.&lt;/p&gt;
-
-&lt;h4 id=&quot;further-amplification&quot;&gt;Further Amplification:&lt;/h4&gt;
-
-&lt;p&gt;One can now see a pulse with little effort but only with amplitude of around 0.5V. So the signal is further fed to an op-amp with gain of 10.
-This output can be fed to a red LED (voltage controlled by resistor) or analog pin of a microcontroller or DSO to observe the pulse clearly.&lt;/p&gt;
-
-&lt;h4 id=&quot;have-a-look-at-the-working-video-here&quot;&gt;Have a look at the working video here:&lt;/h4&gt;
-
-&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kgVUFpzo6lg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;On placing our finger on the IR LED/IR Sensor, we accurately get the pulse.&lt;/p&gt;
-
-&lt;p&gt;It is amazing how, using such a specific property of light reflection and fluctuating blood volumes, we can design a very basic electronic circuit to return our pulse!&lt;/p&gt;</content><author><name>Karan Taneja</name></author><category term="[&quot;Projects&quot;]" /><category term="Analog" /><category term="Filters" /><category term="Op-Amps" /><summary type="html">A simple and interesting application of Analog Electronics for Pulse Detection</summary></entry><entry><title type="html">Using Eagle to design PCBs</title><link href="https://grubdragon.github.io/erciitb//blog/tutorials/using-eagle-to-design-pcbs/" rel="alternate" type="text/html" title="Using Eagle to design PCBs" /><published>2016-06-06T00:00:00+05:30</published><updated>2016-06-06T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/tutorials/using-eagle-to-design-pcbs</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/tutorials/using-eagle-to-design-pcbs/">&lt;p&gt;&lt;strong&gt;Why PCB Designing?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We often come across two scenarios where we need PCB designing.
-Sometimes we need to fix a medium/large sized circuit with various
-components into a smaller and more compact form. And sometimes we need
-to use a specific circuit more number of times. In such cases, making a
-Printed Circuit Board of the required circuit is very useful.&lt;/p&gt;
-
-&lt;p&gt;Have a look:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/using-eagle-to-design-pcbs/image03.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is Eagle?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Eagle is a PCB Designing Software where you can use custom libraries for
-using a variety of elements, from common Resistors, Capacitors etc to
-specific ICs, Microcontrollers. It lets you add the elements you want,
-design the circuit and the choose the physical connections the way you
-want on your PCB.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Details Of Commands and usages in making the SCHEMATIC&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There are basically two parts of our development in Eagle. First, the
-Schematic, that shows all the connections(but not the way you physically
-want on the PCB). Secondly, forming final connections and arranging them
-in the final physical way we want.&lt;/p&gt;
-
-&lt;p&gt;So, in the session, we decided to make a IC 555 circuit.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/using-eagle-to-design-pcbs/image01.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;we-will-go-through-the-following-procedure&quot;&gt;We will go through the following procedure:&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Making the Schematic&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Designing the physical connections&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Let us move on to using the software and its commands.&lt;/p&gt;
-
-&lt;h3 id=&quot;making-the-schematic&quot;&gt;1. Making the Schematic&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;add:&lt;/strong&gt; Used to add any component. Type in the command bar on top&lt;/li&gt;
-  &lt;li&gt;After performing add, lots of components will appear.
-Type keywords to search components. Eg. &lt;strong&gt;RCL&lt;/strong&gt; in search box to find
-Resistor, Capacitor, Inductor.(Take US Package for resistor.) (uF ==
-Polarised, nF == ceramic)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;For NE555N&lt;/strong&gt; type:&lt;strong&gt;add&lt;/strong&gt; on terminal&amp;gt; search &lt;strong&gt;timer&lt;/strong&gt; &amp;gt;
-Find 555. Double click&amp;gt;Paste.&lt;/li&gt;
-  &lt;li&gt;Note:- Whenever &lt;strong&gt;IC&lt;/strong&gt; not found, Google the &lt;strong&gt;.lbr&lt;/strong&gt; file for that
-IC and copy paste in Eagle list.&lt;/li&gt;
-  &lt;li&gt;Use Escape to go back to menu.&lt;/li&gt;
-  &lt;li&gt;For our 555 circuit, we will take a &lt;strong&gt;5mm LED&lt;/strong&gt; for Output&lt;/li&gt;
-  &lt;li&gt;Type &lt;strong&gt;Supply&lt;/strong&gt; in search bar to get 5V and Ground&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;move:&lt;/strong&gt; to move a component&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;net:&lt;/strong&gt; make connections. Net adds connection and side by side
-makes a file(which denotes that there must be a physical
-connection made for this pair in the second part of our designing)
-too.&lt;/li&gt;
-  &lt;li&gt;Make end to end connections and use &lt;strong&gt;name command&lt;/strong&gt; to name the
-wires/components differently so as to differentiate
-between connections.&lt;/li&gt;
-  &lt;li&gt;Giving values&lt;strong&gt;:&lt;/strong&gt; Use &lt;strong&gt;value&lt;/strong&gt; command and then click on component
-to enter value.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Smash command:&lt;/strong&gt; to move around names.(Disassemble components to
-move individually)&lt;/li&gt;
-  &lt;li&gt;Search &lt;strong&gt;Pin Head&lt;/strong&gt; for Berg Pins!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Right click&lt;/strong&gt; a component to rotate&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Delete&lt;/strong&gt; command and select the “plus” sign (appearing at centre
-of component on zooming) denoting the component to delete it.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Label&lt;/strong&gt; command to show the labels.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You are expected to be done with the schematic using these commands.&lt;/p&gt;
-
-&lt;p&gt;Now Type &lt;strong&gt;Board&lt;/strong&gt; command and click Yes option to go to the next part.&lt;/p&gt;
-
-&lt;h3 id=&quot;making-the-physical-connections&quot;&gt;2. Making the Physical Connections&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Air Line&lt;/strong&gt;: denotes a connection that must be made(shows that
-these two points ought to be physically connected).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tools&amp;gt;Ratnest:&lt;/strong&gt;Simplifies air wire connections(because the
-connections change with the physical positions of components and
-so, they can also overlap)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Change package&lt;/strong&gt;: helps to change the &lt;strong&gt;type&lt;/strong&gt; of component.&lt;/li&gt;
-  &lt;li&gt;Note: - If you made wrong connections and want to change a
-component, do it in the schematic file (part 1) and not here.&lt;/li&gt;
-  &lt;li&gt;Menu&amp;gt;Autorouter is used to find the possible physical routing by
-eagle’s own algorithm. It will return certain best possibilities,
-based on certain criteria.(Note:- Menu&amp;gt;Autorouter&amp;gt;Uncheck
-Continuous Option while auto routing again). In case of &lt;strong&gt;Single
-Layer PCBs&lt;/strong&gt;(we mostly have only single layered ones):Top is
-Not Applicable.&lt;/li&gt;
-  &lt;li&gt;We can do manual routing by &lt;strong&gt;Route Command.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Width&lt;/strong&gt; of the connection is given in Inches, around 0.024 inches
-is a preferred width(it shouldn’t be very small because not many
-printing facilities may have that accuracy).&lt;/li&gt;
-  &lt;li&gt;Change &lt;strong&gt;track shape&lt;/strong&gt; by &lt;strong&gt;Right click&lt;/strong&gt;(Avoid using right angles
-because of some&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ripoff&lt;/strong&gt; command changes a physical connection back to just an
-air wire.&lt;/li&gt;
-  &lt;li&gt;It might be useful to create a common ground/power line around the
-PCB, it sometimes simplifies the complexity of connections.&lt;/li&gt;
-  &lt;li&gt;Make sure to Save the file in the same folder as the project.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;to-make-final-output-files-for-gerbv&quot;&gt;To make final output files for Gerbv:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;File &amp;gt; Cam Processor.&lt;/li&gt;
-  &lt;li&gt;File &amp;gt; Open &amp;gt; Job == gerb274x.cam&lt;/li&gt;
-  &lt;li&gt;Process Job In bottom&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;to-see-the-final-files-in-gerbv&quot;&gt;To see the final files in Gerbv:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Open the files with following extensions &lt;code class=&quot;highlighter-rouge&quot;&gt;.brd, .cmp, .plc, .sol, .stc, .sts&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Using the &lt;strong&gt;text&lt;/strong&gt; command, you can write text anywhere. Use it for
-specifying stuff to make circuit connection and component
-placement easier. Add these names for reference by choosing layer
-&lt;strong&gt;tNames&lt;/strong&gt; and adding text.&lt;/li&gt;
-  &lt;li&gt;Change board size using &lt;strong&gt;move command&lt;/strong&gt; and moving the boundaries.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Krish Mehta</name></author><category term="[&quot;Tutorials&quot;]" /><category term="PCB" /><category term="Eagle" /><summary type="html">Summary of the PCB design bootcamp taken by Ajinkya Gorad</summary></entry><entry><title type="html">Path Finder Bot</title><link href="https://grubdragon.github.io/erciitb//blog/projects/path-finder-bot/" rel="alternate" type="text/html" title="Path Finder Bot" /><published>2016-05-30T00:00:00+05:30</published><updated>2016-05-30T00:00:00+05:30</updated><id>https://grubdragon.github.io/erciitb//blog/projects/path-finder-bot</id><content type="html" xml:base="https://grubdragon.github.io/erciitb//blog/projects/path-finder-bot/">&lt;p&gt;Okay, so my roomie cum best friend Mohit Kherwa wanted to build a bot which 
-would crash land into some unknown location on Mars but still find its way to
-the human base station. Since we were not getting a bot to Mars anytime soon, 
-I suggested we build one that finds its way from our room to the next. And so 
-we did. With help from wingies Shikhar Kothari and Harsh Meena.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-went-inside&quot;&gt;What went inside&lt;/h4&gt;
-
-&lt;p&gt;We fixed IR sensors on the front and to the left. To measure the speed or the 
-distance covered, we made white patches on the inside surface of the black wheel. 
-Around 10 of them. There was an IR sensor pointed at the wheel. Essentially, we 
-were receiving a square wave as input from the sensor. Measure the frequency, and 
-voila, you have the bot’s speed! (We learnt later that this is the principle behind 
-a tachometer.) The bot had three wheels, one freely rotating in the front(castor 
-wheel), and two motors (standard 2W) with the rear two, for differential mechanism. 
-And an Arduino, motor driver shield and a 12V battery. Well, so much for the hardware.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/path-finder-bot/image00.jpg&quot; alt=&quot;bot image 1&quot; /&gt;
-&lt;img src=&quot;/assets/blog/path-finder-bot/image01.jpg&quot; alt=&quot;bot image 2&quot; /&gt;
-&lt;img src=&quot;/assets/blog/path-finder-bot/image02.jpg&quot; alt=&quot;bot image 3&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;the-algorithm&quot;&gt;The Algorithm&lt;/h4&gt;
-
-&lt;p&gt;The bot’s initial position was set to origin and thus it marked the coordinate system. 
-Y axis was in the forward direction, and x to the right. We planned to put up an LCD 
-display and buttons on the bot to enter the final coordinates. The coordinates of the 
-destination was hard coded into the bot during testing. They were stored in variables 
-x and y.&lt;/p&gt;
-
-&lt;p&gt;Here’s the logic which we adopted in our arduino code:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;If y&amp;lt;0
-Turn 180 degree. Change the sign of x and y. (This step is to make sure that the 
-final position is always ahead of the bot.)
-Else
-Go to step 2.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Move forward and decrease y accordingly until (y is decreased because the destination 
-is getting closer)
-    &lt;ol&gt;
-      &lt;li&gt;y=0;
-&lt;br /&gt;if x=0 as well,
-Terminate the program. The bot has reached its destination.
-Else go to step 5.&lt;/li&gt;
-      &lt;li&gt;There is some obstacle ahead. (i.e, Front IR sensor goes off)
-&lt;br /&gt;Go to Step 3.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Turn Right. Move forward and decrease x accordingly as long as the left IR sensor gives 
-a high. Go to Step 4.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Turn Left. Go to Step 2.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;If x&amp;lt;0, turn left, set y= -x and x=0. 
-&lt;br /&gt;Go to step 2. 
-&lt;br /&gt;(The bot just rotated the coordinate system by 90 degree and started all over again)
-&lt;br /&gt;If x&amp;gt;0, turn right, set y= x and x=0. 
-&lt;br /&gt;Go to step 2.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can find the code &lt;a href=&quot;https://github.com/thariq-shanavas/Path-Finder-Bot&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;sounds-straightforward-but&quot;&gt;Sounds straightforward, but…&lt;/h3&gt;
-
-&lt;p&gt;The first real difficulty was the wheels slipping on the ground. This was sorted out by using rubberised wheels and bringing down the RPM of the motors by lowering the duty cycle of the PWM output to the motors.&lt;/p&gt;
-
-&lt;p&gt;The second more serious difficulty was that due to manufacturing tolerances, the motors were not identical. Even when the same PWM signal was given to both motors, one tended to go slightly faster and this sometimes led to large cumulative error. We only had an IR sensor on one wheel, so only that wheel’s angular velocity could be measured.&lt;/p&gt;
-
-&lt;p&gt;We tried to correct this error calibrating the duty cycle of the PWM signal to the motors but unfortunately this calibration was dependent on battery voltage- when the battery voltage dropped by half a volt, the bot had to be recalibrated. Then we tried adding an IR sensor to the other wheel and add a feedback system for self-calibration, but the Arduino was not fast enough to collect that much data and process it- angular frequencies of the wheels were wrongly calculated and the bot went haywire. The proposed workaround was to use stepper motors, but then we never got around to implementing it- this was done in the few days following the endsems and all of us had to go home by that time.&lt;/p&gt;
-
-&lt;p&gt;The error was never great enough to defeat the purpose of the bot - the bot usually reached its target with a tolerance of a few centimeters. The error was noticeable only when the battery was heavily drained.&lt;/p&gt;</content><author><name>Thariq Shanavas</name></author><category term="[&quot;Projects&quot;]" /><category term="Algorithm" /><category term="Deep Learning" /><summary type="html">A bot which finds its way on its own</summary></entry></feed>
+&lt;p&gt;Suppose we need to power a device which works at a higher voltage and power supply than an arduino can provide, we can use an SMPS to power the circuit. But if we want to control the turning on and off of the device using arduino we might face a problem in this case. In this case a relay will work the best as relay can be used to control a higher rated circuit using Arduino’s lower rated circuit.&lt;/p&gt;</content><author><name>Dhrumil Shah</name></author><category term="[&quot;Projects&quot;]" /><category term="Rectifier" /><category term="Power Electronics" /><summary type="html">Learn about the technology present in chargers!</summary></entry></feed>
