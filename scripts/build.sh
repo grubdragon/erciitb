@@ -29,7 +29,7 @@ bundle exec jekyll build
 
 function deploy {
 	echo "deploying changes"
-	#commented out
+	#commented out because I want to publish pull requests
 	if false
 		then
 		if [ -z "$TRAVIS_PULL_REQUEST" ]; then
