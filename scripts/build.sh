@@ -54,8 +54,12 @@ function deploy {
 	echo "jekyll building"
 	bundle exec jekyll build
 
-	echo "committing changes"
+	echo "replacing pagination stuff"
 	cd _site
+	find -type f | xargs sed -i  's,github.io/erciitb/tutorials/page,github.io/erciitb/tutorials/page,g'
+	find -type f | xargs sed -i  's,github.io/erciitb/blog/page,github.io/erciitb/blog/page,g'
+
+	echo "committing changes"
 	git init
 	git add -A
 	git commit -m "Lastest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to github"
