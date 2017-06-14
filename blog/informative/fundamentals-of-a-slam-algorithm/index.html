@@ -17,22 +17,22 @@
 
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://grubdragon.github.io/erciitb/images/site-logo.png">
+<meta name="twitter:image" content="https://grubdragon.github.io/images/site-logo.png">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Fundamentals of a SLAM Algorithm">
 <meta property="og:description" content="Discuss the basic concepts behind all SLAM Algorithms.">
-<meta property="og:url" content="https://grubdragon.github.io/erciitb/blog/informative/fundamentals-of-a-slam-algorithm/">
+<meta property="og:url" content="https://grubdragon.github.io/blog/informative/fundamentals-of-a-slam-algorithm/">
 <meta property="og:site_name" content="Electronics and Robotics Club, IIT Bombay">
 
 
 
 
 
-<link rel="canonical" href="https://grubdragon.github.io/erciitb/blog/informative/fundamentals-of-a-slam-algorithm/">
-<link href="https://grubdragon.github.io/erciitb/feed.xml" type="application/atom+xml" rel="alternate" title="Electronics and Robotics Club, IIT Bombay Feed">
+<link rel="canonical" href="https://grubdragon.github.io/blog/informative/fundamentals-of-a-slam-algorithm/">
+<link href="https://grubdragon.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Electronics and Robotics Club, IIT Bombay Feed">
 <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> 
 
@@ -42,8 +42,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="https://grubdragon.github.io/erciitb/assets/css/main.css">
-<link rel="stylesheet" href="https://grubdragon.github.io/erciitb/assets/css/team.css"> 
+<link rel="stylesheet" href="https://grubdragon.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://grubdragon.github.io/assets/css/team.css"> 
 <!-- Webfonts -->
 <script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
 
@@ -51,15 +51,15 @@
 
 <!-- HTML5 Shiv and Media Query Support -->
 <!--[if lt IE 9]>
-  <script src="https://grubdragon.github.io/erciitb/assets/js/vendor/html5shiv.min.js"></script>
-  <script src="https://grubdragon.github.io/erciitb/assets/js/vendor/respond.min.js"></script>
+  <script src="https://grubdragon.github.io/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="https://grubdragon.github.io/assets/js/vendor/respond.min.js"></script>
 <![endif]-->
 
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 <!-- Modernizr -->
-<script src="https://grubdragon.github.io/erciitb/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+<script src="https://grubdragon.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
 
 <!-- MathJax -->
@@ -68,20 +68,20 @@
 
 <!-- Icons -->
 <!-- 16x16 -->
-<link rel="shortcut icon" href="https://grubdragon.github.io/erciitb/favicon.ico">
+<link rel="shortcut icon" href="https://grubdragon.github.io/favicon.ico">
 <!-- 32x32 -->
-<link rel="shortcut icon" href="https://grubdragon.github.io/erciitb/favicon.png">
+<link rel="shortcut icon" href="https://grubdragon.github.io/favicon.png">
 <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="https://grubdragon.github.io/erciitb/images/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="https://grubdragon.github.io/images/apple-touch-icon-precomposed.png">
 <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://grubdragon.github.io/erciitb/images/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://grubdragon.github.io/images/apple-touch-icon-72x72-precomposed.png">
 <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://grubdragon.github.io/erciitb/images/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://grubdragon.github.io/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://grubdragon.github.io/erciitb/images/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://grubdragon.github.io/images/apple-touch-icon-144x144-precomposed.png">
 
-<script src="https://grubdragon.github.io/erciitb/assets/js/scrolltop.js"></script>
-<link rel="stylesheet" href="https://grubdragon.github.io/erciitb/assets/css/scrolltop.css">
+<script src="https://grubdragon.github.io/assets/js/scrolltop.js"></script>
+<link rel="stylesheet" href="https://grubdragon.github.io/assets/css/scrolltop.css">
 </head>
 
 <body id="post">
@@ -93,22 +93,22 @@
 	    <ul>
       
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/" >Home</a></li>
+		    <li><a href="https://grubdragon.github.io/" >Home</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/about/" >About</a></li>
+		    <li><a href="https://grubdragon.github.io/about/" >About</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/tutorials/" >Tutorials</a></li>
+		    <li><a href="https://grubdragon.github.io/tutorials/" >Tutorials</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/blog/" >Blog</a></li>
+		    <li><a href="https://grubdragon.github.io/blog/" >Blog</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/search/" >Search</a></li>
+		    <li><a href="https://grubdragon.github.io/search/" >Search</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/team/" >The Team</a></li>
+		    <li><a href="https://grubdragon.github.io/team/" >The Team</a></li>
 		  
 	    </ul>
 	</nav>
@@ -119,9 +119,9 @@
 <header class="masthead">
 	<div class="wrap">
       
-  		<a href="https://grubdragon.github.io/erciitb/" class="site-logo" rel="home" title="Electronics and Robotics Club, IIT Bombay"><img src="https://grubdragon.github.io/erciitb/images/site-logo.png" width="200" height="200" alt="Electronics and Robotics Club, IIT Bombay logo" class="animated flipInX"></a>
+  		<a href="https://grubdragon.github.io/" class="site-logo" rel="home" title="Electronics and Robotics Club, IIT Bombay"><img src="https://grubdragon.github.io/images/site-logo.png" width="200" height="200" alt="Electronics and Robotics Club, IIT Bombay logo" class="animated flipInX"></a>
       
-      <h1 class="site-title animated pulse"><a href="https://grubdragon.github.io/erciitb/">Electronics and Robotics Club, IIT Bombay</a></h1>
+      <h1 class="site-title animated pulse"><a href="https://grubdragon.github.io/">Electronics and Robotics Club, IIT Bombay</a></h1>
 		<h2 class="site-description animated pulse" itemprop="description">A place for tinkerers and the sort!</h2>
 	</div>
 </header><!-- /.masthead -->
@@ -130,7 +130,7 @@
 
 <div id="main" role="main">
   <article class="hentry">
-    <div class="header-img-overflow"><img src="https://grubdragon.github.io/erciitb/assets/blog/fundamentals-of-a-slam-algorithm/cover.png" class="entry-feature-image" alt="Fundamentals of a SLAM Algorithm" ></div>
+    <div class="header-img-overflow"><img src="https://grubdragon.github.io/assets/blog/fundamentals-of-a-slam-algorithm/cover.png" class="entry-feature-image" alt="Fundamentals of a SLAM Algorithm" ></div>
     <div class="entry-wrapper zoomIn">
       <header class="entry-header center">
         
@@ -148,7 +148,7 @@
         
         
 	<ul class="entry-tags">
-          Tags: <li><a href="https://grubdragon.github.io/erciitb/tags/#algorithm" title="Pages tagged algorithm">algorithm</a></li>
+          Tags: <li><a href="https://grubdragon.github.io/tags/#algorithm" title="Pages tagged algorithm">algorithm</a></li>
         </ul>
       </footer> 
       <div class="entry-content">
@@ -162,12 +162,12 @@
 <ul>
   <li>
     <p><strong><em>Landmark Extraction</em></strong>:<br />
-<img src="https://grubdragon.github.io/erciitb/assets/blog/fundamentals-of-a-slam-algorithm/image_2.jpg" alt="Landmark-Extraction" /><br />
+<img src="https://grubdragon.github.io/assets/blog/fundamentals-of-a-slam-algorithm/image_2.jpg" alt="Landmark-Extraction" /><br />
 Landmarks are distinct, salient features like blobs or corners within an image/frame. Salient features in computer vision are an art in itself. There are dozens of different approaches to extract, describe and match such features. Once extracted they help the robot keep track of where it is by measuring its position relative to the landmark. Landmarks act as memory and helps the robot identify whether it has visited a certain place in the past or not. This leads us to the next part.</p>
   </li>
   <li>
     <p><strong><em>Data association</em></strong>:<br />
-<img src="https://grubdragon.github.io/erciitb/assets/blog/fundamentals-of-a-slam-algorithm/image_3.png" alt="Data-Association" /><br />
+<img src="https://grubdragon.github.io/assets/blog/fundamentals-of-a-slam-algorithm/image_3.png" alt="Data-Association" /><br />
 The problem of data association is that of matching observed landmarks from different (laser) scans with each other. We have to accurately tell whether we have seen a landmark or if it’s a new landmark. If it’s new we add it to the list of observed landmarks, if it’s old we we can measure the relative position of the robot and then accordingly update the position of the robot as well as the landmark on the map. This brings us to the next logical step.</p>
   </li>
   <li>
@@ -185,7 +185,7 @@ The flowchart shown below depicts the above process :-</p>
   </li>
 </ul>
 
-<p><img src="https://grubdragon.github.io/erciitb/assets/blog/fundamentals-of-a-slam-algorithm/image_1.jpg" alt="State-Update" style="margin-left:37px;" /></p>
+<p><img src="https://grubdragon.github.io/assets/blog/fundamentals-of-a-slam-algorithm/image_1.jpg" alt="State-Update" style="margin-left:37px;" /></p>
 
 <ul>
   <li><strong><em>Landmark update</em></strong>:<br /> 
@@ -195,7 +195,7 @@ When we observe a previously unseen feature we update the list of landmarks to i
 <p>After Landmark update the robot moves and then the whole cycle repeats again. When the robot moves the uncertainty of its position increases. After the cycle not only the robot is confident of its position but has also extracted information about the environment and associated itself with it. In this way the robot not only <strong>maps the environment but also knows where it is in it</strong>.</p>
 
 <h2 id="conclusion">Conclusion</h2>
-<p><img src="https://grubdragon.github.io/erciitb/assets/blog/fundamentals-of-a-slam-algorithm/image_0.png" alt="Application" /><br />
+<p><img src="https://grubdragon.github.io/assets/blog/fundamentals-of-a-slam-algorithm/image_0.png" alt="Application" /><br />
 The main aim of this post was to familiarize one with the basics of a SLAM Algorithm to the level that he/she is now able to go further, read tutorials from the internet and implement a SLAM based robot. The applications of this technology are infinite. It is the key to <strong>self-driving cars</strong>, <strong>unmanned aerial vehicles</strong>, <strong>autonomous underwater vehicles</strong>, <strong>planetary rovers</strong>, <strong>newly emerging domestic robots</strong> and even <strong>robots inside the human body</strong>. It is a big and active research field with many unsolved problems.</p>
 
 <p><strong><em>Hope you had a good time reading this blog and were able to learn something new!!</em></strong></p>
@@ -205,10 +205,10 @@ The main aim of this post was to familiarize one with the basics of a SLAM Algor
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="https://grubdragon.github.io/erciitb/blog/informative/deep-learning-based-image-classification/" class="btn" title="Deep Learning Based Image Classification">Previous</a>
+        <a href="https://grubdragon.github.io/blog/informative/deep-learning-based-image-classification/" class="btn" title="Deep Learning Based Image Classification">Previous</a>
       
       
-        <a href="https://grubdragon.github.io/erciitb/blog/projects/path-finder-bot/" class="btn" title="Path Finder Bot">Next</a>
+        <a href="https://grubdragon.github.io/blog/projects/path-finder-bot/" class="btn" title="Path Finder Bot">Next</a>
       
     </nav><!-- /.pagination -->
   </article>
@@ -231,19 +231,19 @@ The main aim of this post was to familiarize one with the basics of a SLAM Algor
 	
   
 	
-  <a href="https://grubdragon.github.io/erciitb/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+  <a href="https://grubdragon.github.io/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
 </div><!-- /.social-icons -->
 
   </footer>
 </div><!-- /.footer-wrapper -->
 
 <script type="text/javascript">
-  var BASE_URL = 'https://grubdragon.github.io/erciitb';
+  var BASE_URL = 'https://grubdragon.github.io';
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="https://grubdragon.github.io/erciitb/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="https://grubdragon.github.io/erciitb/assets/js/scripts.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://grubdragon.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="https://grubdragon.github.io/assets/js/scripts.min.js"></script>
 
 
 
