@@ -30,7 +30,7 @@
 <meta property="og:description" content="MPU 6050 contains both an accelerometer and a gyroscope in a single chip. We tracked the orientation of the MPU6050 module in real time and displayed it on the computer, in a project which we describe below.
 
 ">
-<meta property="og:url" content="https://grubdragon.github.io/erciitb/blog/MPU6050/">
+<meta property="og:url" content="https://grubdragon.github.io/blog/MPU6050/">
 <meta property="og:site_name" content="Electronics and Robotics Club, IIT Bombay">
 
 
@@ -100,22 +100,22 @@
 	    <ul>
       
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/" >Home</a></li>
+		    <li><a href="https://grubdragon.github.io/" >Home</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/about/" >About</a></li>
+		    <li><a href="https://grubdragon.github.io/about/" >About</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/tutorials/" >Tutorials</a></li>
+		    <li><a href="https://grubdragon.github.io/tutorials/" >Tutorials</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/blog/" >Blog</a></li>
+		    <li><a href="https://grubdragon.github.io/blog/" >Blog</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/search/" >Search</a></li>
+		    <li><a href="https://grubdragon.github.io/search/" >Search</a></li>
 		  
 		    
-		    <li><a href="https://grubdragon.github.io/erciitb/team/" >The Team</a></li>
+		    <li><a href="https://grubdragon.github.io/team/" >The Team</a></li>
 		  
 	    </ul>
 	</nav>
@@ -169,7 +169,7 @@
 
 <h2 id="so-how-exactly-do-we-calculate-the-orientation-of-the-mpu6050-using-accelerometer-and-gyroscope">So how exactly do we calculate the orientation of the MPU6050 using accelerometer and gyroscope?</h2>
 <p>To give an idea let’s just consider the Z-axis. When the MPU6050 module is horizontal with respect to ground we get a measurement of 9.8 m/s^2 in the downward direction. When it’s tilted the we will able to measure a component of g using which we will able to calculate the angle at which it is tilted. To give a clearer idea please refer to the diagram below. 
-<img src="https://grubdragon.github.io/erciitb/assets/blog/MPU/g_img.png" alt="By measuring the component of g we can calculate the angle at which it is tilted" /></p>
+<img src="https://grubdragon.github.io/assets/blog/MPU/g_img.png" alt="By measuring the component of g we can calculate the angle at which it is tilted" /></p>
 
 <h2 id="how-did-we-make-our-project">How did we make our project?</h2>
 <p>Now that we have a clearer picture of how MPU6050 works we can move on to the project that we made. We connected the MPU6050 to arduino via I2C. The SCL and SDA (used in I2C) are connected to pins A5 and A4 respectively. The VCC and ground will be connected to 5V and ground of Arduino.</p>
